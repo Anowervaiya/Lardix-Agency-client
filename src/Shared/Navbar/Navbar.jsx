@@ -9,35 +9,35 @@ function Navbar() {
         <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize   ">
           <a
             href="#"
-            className="border-b-2 text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
+            className="border-b-2 text-xl  text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
           >
-            home
+            Home
           </a>
 
           <a
             href="#"
-            className="border-b-2 text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
+            className="border-b-2 text-xl text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
           >
             Services
           </a>
 
           <a
             href="#"
-            className="border-b-2 text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
+            className="border-b-2 text-xl text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
           >
             About
           </a>
 
           <a
             href="#"
-            className="border-b-2 text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
+            className="border-b-2 text-xl text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
           >
             Career
           </a>
 
           <a
             href="#"
-            className="border-b-2 text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
+            className="border-b-2 text-xl text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
           >
             Contact
           </a>
@@ -47,7 +47,7 @@ function Navbar() {
   );
   return (
     <div>
-      <div className="navbar fixed top-0  bg-[#0B163F] text-white">
+      <div className="navbar lg:px-8 fixed top-0  z-50 bg-[#0B163F] text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -71,7 +71,7 @@ function Navbar() {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
             ></ul>
           </div>
-          <a className=" text-2xl font-semibold">Lardix Agency</a>
+          <a className=" text-2xl md:text-3xl lg:text-4xl font-semibold">Lardix Agency</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{ListContainer}</ul>
