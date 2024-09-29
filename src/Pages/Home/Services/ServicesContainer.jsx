@@ -23,7 +23,7 @@ function ServicesContainer() {
         </div>
         <div className="absolute top-0 right-0 left-0 bottom-0 flex justify-center items-center">
           <div>
-            <h1 className="text-2xl  md:text-3xl  lg:text-5xl text-center text-white font-semibold ">
+            <h1 className="text-2xl  md:text-3xl  lg:text-4xl text-center text-white md:font-bold ">
               {' '}
               Our Services
             </h1>

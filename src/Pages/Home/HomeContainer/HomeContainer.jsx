@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../../../Shared/Navbar/Navbar'
 import Banner from '../Banner/Banner'
 import ServicesContainer from '../Services/ServicesContainer'
+import GrowWithUs from '../GrowWithUs/GrowWithUs';
+import WorkProcess from '../WorkProcess/WorkProcess';
 
 
 function HomeContainer() {
@@ -11,7 +13,9 @@ function HomeContainer() {
     
         <Banner></Banner>
 
-        <ServicesContainer></ServicesContainer>
+      <ServicesContainer></ServicesContainer>
+      <GrowWithUs></GrowWithUs>
+      <WorkProcess></WorkProcess>
      
     </div>
   );

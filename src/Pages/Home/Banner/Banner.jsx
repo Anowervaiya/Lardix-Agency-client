@@ -4,7 +4,7 @@ import Button from '../../../Components/Button';
 function Banner() {
   return (
     <div>
-      <div className="hero mt-16  min-h-screen">
+      <div className="hero mt-16  ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="flex-1">
             {' '}
