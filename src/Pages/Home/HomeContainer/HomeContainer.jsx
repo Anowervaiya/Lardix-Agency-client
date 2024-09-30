@@ -4,6 +4,8 @@ import Banner from '../Banner/Banner'
 import ServicesContainer from '../Services/ServicesContainer'
 import GrowWithUs from '../GrowWithUs/GrowWithUs';
 import WorkProcess from '../WorkProcess/WorkProcess';
+import WhyLardix from '../WhyLardix/WhyLardix';
+import Statistics from '../Statistics/Statistics';
 
 
 function HomeContainer() {
@@ -16,6 +18,8 @@ function HomeContainer() {
       <ServicesContainer></ServicesContainer>
       <GrowWithUs></GrowWithUs>
       <WorkProcess></WorkProcess>
+      <WhyLardix></WhyLardix>
+      <Statistics></Statistics>
      
     </div>
   );

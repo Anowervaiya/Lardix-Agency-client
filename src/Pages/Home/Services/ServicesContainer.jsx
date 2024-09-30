@@ -32,7 +32,7 @@ function ServicesContainer() {
              text-center mx-auto mt-4"
             >
               We have been in the IT industry for the last 5 years. Within this
-              time, Avista Digital has been transformed from the a "SEO Agency
+              time, Lardix Agency has been transformed from the a "SEO Agency
               in Bangladesh" to a full scale "Digital Marketing Agency".{' '}
             </p>
           </div>
