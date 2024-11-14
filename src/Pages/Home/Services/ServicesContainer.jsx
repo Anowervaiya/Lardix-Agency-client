@@ -1,14 +1,23 @@
 import React from 'react';
 import ServicesCard from './ServicesCard';
-
-import Web from '../../../assets/web.png';
-import graphics from '../../../assets/graphics.png';
-import SEO from '../../../assets/SEO.png';
-import WebDevelopmet from '../../../assets/WebDevelopment.png';
-import DigitalMarketing from '../../../assets/digitalMarketing.png';
-import MobileDevelopment from '../../../assets/MobileDevelopment.png';
+import { useQuery } from '@tanstack/react-query';
+import useAxiosSecure from '../../../Hooks/useAxiosSecure';
 
 function ServicesContainer() {
+
+  const AxiosSecure = useAxiosSecure()
+  const { data:ServicesData, isLoading } = useQuery({
+    queryKey: ['top-services'],
+   
+    queryFn: async  () => {
+      const data = await AxiosSecure('/top-services');
+     
+      return data?.data;
+    }
+  })
+
+  if (isLoading) return <div>hi</div>;
+  
   return (
     <div>
       <div className=" pt-8 relative bg-gradient-to-r from-[#666579] via-[#161681] to-[#138eac]">
@@ -32,57 +41,17 @@ function ServicesContainer() {
              text-center mx-auto mt-4"
             >
               We have been in the IT industry for the last 5 years. Within this
-              time, Lardix Agency has been transformed from the a "SEO Agency
-              in Bangladesh" to a full scale "Digital Marketing Agency".{' '}
+              time, Lardix Agency has been transformed from the a "SEO Agency in
+              Bangladesh" to a full scale "Digital Marketing Agency".{' '}
             </p>
           </div>
         </div>
       </div>
       <div className="container mx-auto my-16 px-3">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 ">
-          <ServicesCard
-            Icon={Web}
-            Heading={'Web Design'}
-            Description={
-              'We provide professional web design services, creating modern, responsive, and user-friendly websites tailored to your business needs..'
-            }
-          ></ServicesCard>
-          <ServicesCard
-            Icon={WebDevelopmet}
-            Heading={'Web Development'}
-            Description={
-              'We provide professional web development services, creating responsive, user-friendly websites tailored to meet your business needs and goals.'
-            }
-          ></ServicesCard>
-          <ServicesCard
-            Icon={DigitalMarketing}
-            Heading={'Digital Marekting'}
-            Description={
-              "We offer comprehensive digital marketing services, including SEO, social media management, PPC, content marketing, and email campaigns to boost your brand's online presence and drive results."
-            }
-          ></ServicesCard>
-          <ServicesCard
-            Icon={SEO}
-            Heading={'SEO'}
-            Description={
-              'We provide comprehensive SEO services, optimizing your website for higher search rankings, increased traffic, and better online visibility.'
-            }
-          ></ServicesCard>
-          <ServicesCard
-            Icon={graphics}
-            Heading={'Graphics Design'}
-            Description={
-              'We offer professional graphic design services, creating visually stunning logos, branding, social media graphics, and marketing materials tailored to your business needs.'
-            }
-          ></ServicesCard>
-
-          <ServicesCard
-            Icon={MobileDevelopment}
-            Heading={'Mobile App Development'}
-            Description={
-              'We offer end-to-end mobile app development services, creating custom, user-friendly apps for iOS and Android platforms'
-            }
-          ></ServicesCard>
+          {ServicesData.map((item, index) => {
+            return <ServicesCard item={item} key={index}></ServicesCard>;
+          })}
         </div>
       </div>
     </div>

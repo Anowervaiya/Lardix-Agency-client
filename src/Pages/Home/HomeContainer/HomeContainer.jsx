@@ -11,12 +11,12 @@ import Statistics from '../Statistics/Statistics';
 function HomeContainer() {
   return (
     <div>
-      <Navbar></Navbar>
+      
     
         <Banner></Banner>
 
-      <ServicesContainer></ServicesContainer>
       <GrowWithUs></GrowWithUs>
+      <ServicesContainer></ServicesContainer>
       <WorkProcess></WorkProcess>
       <WhyLardix></WhyLardix>
       <Statistics></Statistics>

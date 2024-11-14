@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { FaCheck } from 'react-icons/fa6';
 function GrowWithUs() {
   return (
     <div>
@@ -22,15 +22,39 @@ function GrowWithUs() {
               and expertise to help you thrive. Let's grow together!
             </p>
 
-            <div className="text-start w-60 mx-auto lg:mx-0">
-              <li>Customized Growth Strategies </li>
-              <li>Training and Development</li>
-              <li>Technology Solutions</li>
-              <li>Business Networking </li>
-              <li>Expert Consultation</li>
-              <li>Marketing Support </li>
-              <li>Financial Planning </li>
-              <li>Ongoing Support </li>
+            <div className="text-start w-60 mx-auto lg:mx-0 *:flex *:justify-start leading-8 *:items-center">
+              <div className="">
+                <FaCheck className=" text-blue-500  " />{' '}
+                <span className='ml-2'>Customized Growth Strategies</span>{' '}
+              </div>
+              <div>
+                <FaCheck className="text-blue-500  " />{' '}
+                <span  className='ml-2'>Training and Development</span>
+              </div>
+              <div>
+                <FaCheck className=" text-blue-500  " />{' '}
+                <span className='ml-2'>Technology Solutions</span>{' '}
+              </div>
+              <div>
+                <FaCheck className="text-blue-500  " />{' '}
+                <span className='ml-2'>Business Networking</span>{' '}
+              </div>
+              <div>
+                <FaCheck className="text-blue-500  " />{' '}
+                <span className='ml-2'>Expert Consultation</span>{' '}
+              </div>
+              <div>
+                <FaCheck className="text-blue-500  " />{' '}
+                <span className='ml-2'>Marketing Support</span>{' '}
+              </div>
+              <div>
+                <FaCheck className="text-blue-500  " />{' '}
+                <span className='ml-2'>Financial Planning</span>{' '}
+              </div>
+              <div>
+                <FaCheck className="text-blue-500  " />{' '}
+                <span className='ml-2'>Ongoing Support</span>{' '}
+              </div>
             </div>
           </div>
         </div>
