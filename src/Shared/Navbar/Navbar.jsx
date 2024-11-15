@@ -82,7 +82,7 @@ function Navbar() {
   return (
     <div>
       <div className="navbar lg:px-8 fixed top-0  z-50 bg-[#0B163F] text-white">
-        <div className="navbar-start">
+        <div className="navbar-start ">
           <div className="dropdown relative">
             <div
               tabIndex={0}
@@ -125,7 +125,7 @@ function Navbar() {
               ''
             )}
           </div>
-          <a className=" text-2xl md:text-3xl lg:text-4xl font-semibold">
+          <a className=" text-2xl md:text-3xl lg:text-4xl font-semibold text-center">
             Lardix Agency
           </a>
         </div>

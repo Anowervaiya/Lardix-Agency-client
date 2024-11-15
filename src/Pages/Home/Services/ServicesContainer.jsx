@@ -1,22 +1,23 @@
-import React from 'react';
-import ServicesCard from './ServicesCard';
-import { useQuery } from '@tanstack/react-query';
-import useAxiosSecure from '../../../Hooks/useAxiosSecure';
+import React from "react";
+import ServicesCard from "./ServicesCard";
+import { useQuery } from "@tanstack/react-query";
+import useAxiosSecure from "../../../Hooks/useAxiosSecure";
+import Loading from "../../../Components/Loading";
 
 function ServicesContainer() {
 
   const AxiosSecure = useAxiosSecure()
   const { data:ServicesData, isLoading } = useQuery({
-    queryKey: ['top-services'],
+    queryKey: ["top-services"],
    
     queryFn: async  () => {
-      const data = await AxiosSecure('/top-services');
+      const data = await AxiosSecure("/top-services");
      
       return data?.data;
     }
   })
 
-  if (isLoading) return <div>hi</div>;
+  if (isLoading) return <Loading></Loading>;
   
   return (
     <div>
@@ -33,7 +34,7 @@ function ServicesContainer() {
         <div className="absolute top-0 right-0 left-0 bottom-0 flex justify-center items-center">
           <div>
             <h1 className="text-2xl  md:text-3xl  lg:text-4xl text-center text-white md:font-bold ">
-              {' '}
+              {" "}
               Our Services
             </h1>
             <p
@@ -42,7 +43,7 @@ function ServicesContainer() {
             >
               We have been in the IT industry for the last 5 years. Within this
               time, Lardix Agency has been transformed from the a "SEO Agency in
-              Bangladesh" to a full scale "Digital Marketing Agency".{' '}
+              Bangladesh" to a full scale "Digital Marketing Agency".{" "}
             </p>
           </div>
         </div>
@@ -59,3 +60,4 @@ function ServicesContainer() {
 }
 
 export default ServicesContainer;
+

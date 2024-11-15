@@ -10,7 +10,7 @@ import Statistics from '../Statistics/Statistics';
 
 function HomeContainer() {
   return (
-    <div>
+    <div >
       
     
         <Banner></Banner>
