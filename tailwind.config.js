@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        'differenceCard': '0 4px 6px rgba(0, 0, 0, 0.1), 0 -4px 6px rgba(0, 0, 0, 0.1)',
+        'service': '0 4px 6px rgba(205, 209, 228,1), 0 -4px 6px rgba(205, 209, 228,1)',
+      }
+}
   },
   plugins: [
     require('daisyui'),

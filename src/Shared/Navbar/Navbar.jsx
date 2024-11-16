@@ -81,61 +81,65 @@ function Navbar() {
 
   return (
     <div>
-      <div className="navbar lg:px-8 fixed top-0  z-50 bg-[#0B163F] text-white">
-        <div className="navbar-start ">
-          <div className="dropdown relative">
-            <div
-              tabIndex={0}
-              onClick={() => {
-                setDropdown(!dropdown);
-              }}
-              role="button"
-              className="btn btn-ghost lg:hidden"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+      <div className="navbar  lg:px-8 fixed top-0  z-50 bg-[#0B163F] text-white">
+        <div className="navbar-start"></div>
+        <div className="navbar-center flex  gap-64   container mx-auto ">
+          <div>
+            <div className="dropdown relative">
+              <div
+                tabIndex={0}
+                onClick={() => {
+                  setDropdown(!dropdown);
+                }}
+                role="button"
+                className="btn btn-ghost lg:hidden"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              {dropdown ? (
+                <>
+                  {' '}
+                  <div className="absolute top-8 left-0 bg-[#0B163F]">
+                    <ul
+                      tabIndex={0}
+                      className="menu menu-sm dropdown-content   rounded-box z-[1] mt-3 w-52 p-2 shadow-md shadow-violet-300"
+                    >
+                      <div className="container flex flex-col items-center justify-center p-6 mx-auto bg-[#0B163F] capitalize   ">
+                        {ListContainer}
+                      </div>
+                    </ul>
+                  </div>
+                </>
+              ) : (
+                ''
+              )}
             </div>
-            {dropdown ? (
-              <>
-                {' '}
-                <div className="absolute top-8 left-0 bg-[#0B163F]">
-                  <ul
-                    tabIndex={0}
-                    className="menu menu-sm dropdown-content   rounded-box z-[1] mt-3 w-52 p-2 shadow-md shadow-violet-300"
-                  >
-                    <div className="container flex flex-col items-center justify-center p-6 mx-auto bg-[#0B163F] capitalize   ">
-                      {ListContainer}
-                    </div>
-                  </ul>
-                </div>
-              </>
-            ) : (
-              ''
-            )}
+            <a className=" text-2xl md:text-3xl lg:text-4xl font-semibold text-center">
+              Lardix Agency
+            </a>
           </div>
-          <a className=" text-2xl md:text-3xl lg:text-4xl font-semibold text-center">
-            Lardix Agency
-          </a>
+          <div className=" hidden lg:flex">
+            <ul className="menu menu-horizontal px-1">
+              <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize   ">
+                {ListContainer}
+              </div>
+            </ul>
+          </div>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize   ">
-              {ListContainer}
-            </div>
-          </ul>
-        </div>
+
         <div className="navbar-end">
           <a className=""></a>
         </div>

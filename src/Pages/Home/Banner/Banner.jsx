@@ -4,8 +4,8 @@ import Button from '../../../Components/Button';
 function Banner() {
   return (
     <div>
-      <div className="hero pt-10 pb-8 max-h-screen bg-slate-700 text-white ">
-        <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="  pt-10 pb-8 max-h-screen bg-slate-700 text-white ">
+        <div className="flex  items-center flex-col lg:flex-row-reverse container mx-auto">
           <div className="flex-1">
             {' '}
             <img

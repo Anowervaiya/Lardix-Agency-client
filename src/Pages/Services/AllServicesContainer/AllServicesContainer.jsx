@@ -4,6 +4,10 @@ import useAxiosSecure from '../../../Hooks/useAxiosSecure';
 import { useQuery } from '@tanstack/react-query';
 import Button from '../../../Components/Button';
 import Loading from '../../../Components/Loading';
+import SecondBanner from './SecondBanner';
+import HeadingDesing from '../../../Components/HeadingDesing';
+import KeySurvicesCard from './KeySurvicesCard';
+import WhatMakesUsDifference from './WhatMakesUsDifference';
 
 function AllServicesContainer({ ServiceType }) {
 
@@ -22,10 +26,10 @@ if(isLoading) return <Loading></Loading>
   return (
     <div>
       <div
-        className="hero pt-28 pb-12
+        className=" pt-28 pb-12
      bg-slate-700 text-white max-h-screen "
       >
-        <div className="hero-content flex-col lg:flex-row-reverse ">
+        <div className=" container mx-auto flex justify-between items-center flex-col lg:flex-row-reverse ">
           <div>
             {' '}
             <img
@@ -35,11 +39,29 @@ if(isLoading) return <Loading></Loading>
           </div>
           <div className=" flex-1 text-center lg:text-start ">
             <h1 className="text-5xl font-bold">{data?.name}</h1>
-            <p className="py-6 text-[20px] leading-8">{data?.description}</p>
-            <Button text={'How it Works'}></Button>
+            <p className="py-6 text-[20px] max-w-[700px] leading-8">{data?.description}</p>
           </div>
         </div>
       </div>
+      <SecondBanner data={data}></SecondBanner>
+      {/* heading design  */}
+      <div className="mt-16 ">
+        <HeadingDesing
+          text={`${data?.name} key services`}
+          description={
+            'We have been in the IT industry for the last 2 years. Within this time, Lardix Agency has been transformed from the a "SEO Agency" to a full scale "Digital Marketing Agency".'
+          }
+        ></HeadingDesing>
+      </div>{' '}
+      {/* key services  */}
+      <div className="container mx-auto my-16 px-3">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+          {data?.['sub-services']?.map((item, idx) => (
+            <KeySurvicesCard key={idx} item={item}></KeySurvicesCard>
+          ))}
+        </div>
+      </div>
+      <WhatMakesUsDifference></WhatMakesUsDifference>
     </div>
   );
 }

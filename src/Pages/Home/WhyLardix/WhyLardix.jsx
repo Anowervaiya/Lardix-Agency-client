@@ -2,17 +2,17 @@ import React from 'react';
 
 function WhyLardix() {
   return (
-    <div>
-      <div className="hero  bg-blue-100">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="flex-1">
+    <div className="">
+      <div className="  bg-blue-100">
+        <div className=" py-16 container mx-auto flex  flex-col justify-between lg:flex-row-reverse">
+          <div className="">
             {' '}
             <img
               src="src/assets/whyLardix.gif"
               className="  md:w-full h-[350px] md:h-[500px] lg:h-full"
             />
           </div>
-          <div className="flex-1  text-center lg:text-start ">
+          <div className="  text-center lg:text-start ">
             <div className="my-10">
               <div className="border-l-[6px] h-[50px] border-indigo-500 text-start ">
                 <h1 className="text-4xl font-bold ml-4">Why Lardix </h1>

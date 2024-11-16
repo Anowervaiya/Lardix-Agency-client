@@ -3,8 +3,8 @@ import { FaCheck } from 'react-icons/fa6';
 function GrowWithUs() {
   return (
     <div>
-      <div className="hero  ">
-        <div className="hero-content flex-col lg:flex-row">
+      <div className="   container mx-auto">
+        <div className="flex  items-center flex-col lg:flex-row">
           <div className="flex-1">
             {' '}
             <img
@@ -25,35 +25,35 @@ function GrowWithUs() {
             <div className="text-start w-60 mx-auto lg:mx-0 *:flex *:justify-start leading-8 *:items-center">
               <div className="">
                 <FaCheck className=" text-blue-500  " />{' '}
-                <span className='ml-2'>Customized Growth Strategies</span>{' '}
+                <span className="ml-2">Customized Growth Strategies</span>{' '}
               </div>
               <div>
                 <FaCheck className="text-blue-500  " />{' '}
-                <span  className='ml-2'>Training and Development</span>
+                <span className="ml-2">Training and Development</span>
               </div>
               <div>
                 <FaCheck className=" text-blue-500  " />{' '}
-                <span className='ml-2'>Technology Solutions</span>{' '}
+                <span className="ml-2">Technology Solutions</span>{' '}
               </div>
               <div>
                 <FaCheck className="text-blue-500  " />{' '}
-                <span className='ml-2'>Business Networking</span>{' '}
+                <span className="ml-2">Business Networking</span>{' '}
               </div>
               <div>
                 <FaCheck className="text-blue-500  " />{' '}
-                <span className='ml-2'>Expert Consultation</span>{' '}
+                <span className="ml-2">Expert Consultation</span>{' '}
               </div>
               <div>
                 <FaCheck className="text-blue-500  " />{' '}
-                <span className='ml-2'>Marketing Support</span>{' '}
+                <span className="ml-2">Marketing Support</span>{' '}
               </div>
               <div>
                 <FaCheck className="text-blue-500  " />{' '}
-                <span className='ml-2'>Financial Planning</span>{' '}
+                <span className="ml-2">Financial Planning</span>{' '}
               </div>
               <div>
                 <FaCheck className="text-blue-500  " />{' '}
-                <span className='ml-2'>Ongoing Support</span>{' '}
+                <span className="ml-2">Ongoing Support</span>{' '}
               </div>
             </div>
           </div>

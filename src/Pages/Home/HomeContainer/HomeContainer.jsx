@@ -17,8 +17,8 @@ function HomeContainer() {
 
       <GrowWithUs></GrowWithUs>
       <ServicesContainer></ServicesContainer>
-      <WorkProcess></WorkProcess>
       <WhyLardix></WhyLardix>
+      <WorkProcess></WorkProcess>
       <Statistics></Statistics>
      
     </div>
