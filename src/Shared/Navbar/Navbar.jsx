@@ -1,14 +1,28 @@
 import React, { useState } from 'react';
 import ServicesItem from '../../Components/ServicesItem';
+import useAxiosSecure from '../../Hooks/useAxiosSecure';
+import { useQuery } from '@tanstack/react-query';
+import Loading from '../../Components/Loading';
 
 
 function Navbar() {
   
   const [dropdown, setDropdown] = useState(false);
 
+  const AxiosSecure = useAxiosSecure();
+  const { data: ServicesData, isLoading } = useQuery({
+    queryKey: ['top-services-list'],
 
+    queryFn: async () => {
+      const data = await AxiosSecure('/top-services');
+
+      return data?.data;
+    },
+  });
+
+  if (isLoading) return <Loading></Loading>;
   
- 
+ console.log(ServicesData);
   const ListContainer = (
     <>
       <a
@@ -26,6 +40,7 @@ function Navbar() {
         >
           {' '}
           <div className="flex flex-col w-64 p-4 *:mb-2">
+          
             <ServicesItem  text={'SEO'} link={'SEO'}></ServicesItem>
             <ServicesItem
               text={'Web Design'}
