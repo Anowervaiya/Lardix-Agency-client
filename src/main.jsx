@@ -10,6 +10,7 @@ import {
   QueryClientProvider,
 } from '@tanstack/react-query';
 import AllServicesContainer from './Pages/Services/AllServicesContainer/AllServicesContainer';
+import Contact from './Pages/Contact/Contact';
 const queryClient = new QueryClient();
 
 
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
         path: '/all-services/:link',
         element:<AllServicesContainer></AllServicesContainer>
       },
+      {
+        path: '/contact',
+        element:<Contact></Contact>
+      }
     ],
   },
 ]);

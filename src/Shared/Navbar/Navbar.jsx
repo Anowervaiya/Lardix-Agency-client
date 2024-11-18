@@ -3,6 +3,7 @@ import ServicesItem from '../../Components/ServicesItem';
 import useAxiosSecure from '../../Hooks/useAxiosSecure';
 import { useQuery } from '@tanstack/react-query';
 import Loading from '../../Components/Loading';
+import { Link } from 'react-router-dom';
 
 
 function Navbar() {
@@ -77,19 +78,18 @@ function Navbar() {
         About
       </a>
 
-      <a
-        href="#"
+      <Link to={'career'}
         className="border-b-2 text-xl text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
       >
         Career
-      </a>
+      </Link>
 
-      <a
-        href="#"
+      <Link
+      to={'/contact'}
         className="border-b-2 text-xl text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
       >
         Contact
-      </a>
+      </Link>
     </>
   );
 
