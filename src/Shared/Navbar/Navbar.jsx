@@ -4,8 +4,7 @@ import useAxiosSecure from '../../Hooks/useAxiosSecure';
 import { useQuery } from '@tanstack/react-query';
 import Loading from '../../Components/Loading';
 import { Link } from 'react-router-dom';
-
-
+import './navbar.css'
 function Navbar() {
   
   const [dropdown, setDropdown] = useState(false);
@@ -23,7 +22,6 @@ function Navbar() {
 
   if (isLoading) return <Loading></Loading>;
   
- console.log(ServicesData);
   const ListContainer = (
     <>
       <a
@@ -96,10 +94,10 @@ function Navbar() {
 
   return (
     <div>
-      <div className="navbar  lg:px-8 fixed top-0  z-50 bg-[#0B163F] text-white">
+      <div className="navbar h-[80px]  lg:px-8 fixed top-0  z-50 bg-[#0B163F] text-white">
         <div className="navbar-start"></div>
         <div className="navbar-center flex  gap-64   container mx-auto ">
-          <div>
+          <div className="flex justify-center items-center">
             <div className="dropdown relative">
               <div
                 tabIndex={0}
@@ -142,9 +140,14 @@ function Navbar() {
                 ''
               )}
             </div>
-            <a className=" text-2xl md:text-3xl lg:text-4xl font-semibold text-center">
-              Lardix Agency
-            </a>
+            <div className="">
+              <h1
+                className=" text-xl md:text-2xl lg:text-3xl font-bold text-center  
+             "
+              >
+                Lardix
+              </h1>
+            </div>
           </div>
           <div className=" hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
