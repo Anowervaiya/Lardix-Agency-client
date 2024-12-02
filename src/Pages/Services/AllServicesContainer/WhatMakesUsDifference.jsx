@@ -1,14 +1,19 @@
-import React from 'react'
+import React from 'react';
 import PricessCard from '../../Home/WorkProcess/PricessCard';
 import WhatMakesCard from './WhatMakesCard';
 
 function WhatMakesUsDifference() {
   return (
-    <div className=" container mx-auto p-4">
+    <div className=" max-w-[1440px] mx-auto p-4">
       <div className="mt-24 mb-16">
         <div className="border-l-[6px] h-[50px] border-indigo-500 ">
           <h1 className="text-4xl font-bold ml-4">
-            What Makes Us Difference From Others
+            What Makes Us Difference From
+            <span className="font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+              {' '}
+              Others
+            </span>
+            {/* What Makes Us Difference From Others */}
           </h1>
         </div>
         <div className=" mt-8 lg:mt-4">
@@ -81,4 +86,4 @@ function WhatMakesUsDifference() {
   );
 }
 
-export default WhatMakesUsDifference
+export default WhatMakesUsDifference;

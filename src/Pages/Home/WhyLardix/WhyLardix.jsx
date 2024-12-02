@@ -1,21 +1,27 @@
 import React from 'react';
+import { FaCheck } from 'react-icons/fa6';
 
 function WhyLardix() {
   return (
     <div className="">
-      <div className="  bg-blue-100">
-        <div className=" py-16 container mx-auto flex  flex-col justify-between lg:flex-row-reverse">
-          <div className="">
+      <div className="  ">
+        <div className=" py-16 px-4 max-w-[1440px] mx-auto flex  flex-col justify-between lg:flex-row-reverse">
+          <div className=" flex-1 mx-auto *:rounded-lg">
             {' '}
             <img
               src="src/assets/whyLardix.gif"
               className="  md:w-full h-[350px] md:h-[500px] lg:h-full"
             />
           </div>
-          <div className="  text-center lg:text-start ">
+          <div className=" flex-1 text-start lg:text-start ">
             <div className="my-10">
               <div className="border-l-[6px] h-[50px] border-indigo-500 text-start ">
-                <h1 className="text-4xl font-bold ml-4">Why Lardix </h1>
+                <h1 className="text-4xl font-bold ml-4">
+                  <span className="font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+                    {' '}
+                    Why Lardix
+                  </span>
+                </h1>
               </div>
 
               <h1 className=" ml-6 text-start">
@@ -25,30 +31,88 @@ function WhyLardix() {
                 your brand stands out in today’s competitive landscape.
               </h1>
             </div>
-            <div className="text-start lg:w-[500px] mx-auto lg:mx-0 *:mb-4">
-              <li>
-                <span className="font-bold "> Expert Team:</span> Skilled
-                professionals across various domains including SEO, web design,
-                and app development.{' '}
-              </li>
-              <li>
-                <span className="font-bold ">Custom Solutions:</span> Every
-                service is tailored to meet your unique business needs.
-              </li>
-              <li>
-                <span className="font-bold ">Proven Results:</span> Data-driven
-                strategies that boost your online presence and ROI.
-              </li>
-              <li>
-                <span className="font-bold ">End-to-End Support:</span>{' '}
-                Comprehensive services from planning to execution and
-                optimization.
-              </li>
-              <li>
-                <span className="font-bold "> Cutting-Edge Tools:</span> We use
-                the latest technology to drive success and efficiency.
-              </li>
+
+            <div className="space-y-4 mt-6 ml-6">
+              <div
+                className="flex gap-8
+          "
+              >
+                <div className="w-[80px] h-[70px] border rounded-xl shadow-service ">
+                  <img
+                    src="/src/assets/actionable.png"
+                    alt=""
+                    className="p-3 h-[70px] mx-auto"
+                  />
+                </div>
+                <div className="flex-1 ">
+                  <h1 className=" text-xl font-bold">Expert Team</h1>
+                  <p className="text-gray-500 mt-2">
+                    Skilled professionals delivering specialized knowledge and
+                    innovative solutions for success
+                  </p>
+                </div>
+              </div>
+              <div
+                className="flex gap-8
+          "
+              >
+                <div className="w-[80px] h-[70px] border rounded-xl shadow-service">
+                  <img
+                    src="/src/assets/stretigic.png"
+                    alt=""
+                    className="p-3 h-[70px] mx-auto"
+                  />
+                </div>
+                <div className=" flex-1">
+                  <h1 className=" text-xl font-bold">Proven Results</h1>
+                  <p className="text-gray-500 mt-2">
+                    Demonstrated success with measurable outcomes and strategies
+                    that work
+                  </p>
+                </div>
+              </div>
+              <div
+                className="flex gap-8
+          "
+              >
+                <div className="w-[80px] h-[70px] border rounded-xl shadow-service ">
+                  <img
+                    src="/src/assets/trendspot.png"
+                    alt=""
+                    className="p-3  h-[70px] mx-auto"
+                  />
+                </div>
+                <div className="flex-1 ">
+                  <h1 className=" text-xl font-bold">End-to-End Support</h1>
+                  <p className="text-gray-500 mt-2">
+                    Comprehensive solutions guiding you from start to successful
+                    completion
+                  </p>
+                </div>
+              </div>
             </div>
+            {/* <div className="text-start lg:w-[500px] mx-auto lg:mx-0 *:mb-1 *:flex *:justify-start leading-8 *:items-center">
+              <div>
+                <FaCheck className=" text-blue-500  " />{' '}
+                <span className="ml-2"> Expert Team</span>{' '}
+              </div>
+              <div>
+                <FaCheck className=" text-blue-500  " />{' '}
+                <span className="ml-2"> Custom Solutions</span>{' '}
+              </div>
+              <div>
+                <FaCheck className=" text-blue-500  " />{' '}
+                <span className="ml-2"> Proven Results</span>{' '}
+              </div>
+              <div>
+                <FaCheck className=" text-blue-500  " />{' '}
+                <span className="ml-2"> End-to-End Support</span>{' '}
+              </div>
+              <div>
+                <FaCheck className=" text-blue-500  " />{' '}
+                <span className="ml-2"> Cutting-Edge Tools</span>{' '}
+              </div>
+            </div> */}
           </div>
         </div>
       </div>

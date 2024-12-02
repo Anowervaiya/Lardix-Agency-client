@@ -3,39 +3,34 @@ import React, { useState } from 'react';
 import { BsFillHouseAddFill } from 'react-icons/bs';
 import HeadingDesing from '../../Components/HeadingDesing';
 
-  import useWeb3Forms from '@web3forms/react';
+import useWeb3Forms from '@web3forms/react';
 const Contact = () => {
-
-  // Add inside your function
-  
-
-  const handleSubmit = (e) => {
+  const handleSubmit = e => {
     e.preventDefault();
-
 
     //  mdanowerhossen727@gmail.com======> smtp username
     // E358C71FF7978374DD592C0CD8452E775D9C======>smtp password
-  const Name= e.target?.Name?.value;
-  const Website= e.target?.Website?.value;
-  const PhoneNumber= e.target?.PhoneNumber?.value;
-  const EmailAddress= e.target?.EmailAddress?.value;
-  const Service= e.target?.Service?.value;
+    const Name = e.target?.Name?.value;
+    const Website = e.target?.Website?.value;
+    const PhoneNumber = e.target?.PhoneNumber?.value;
+    const EmailAddress = e.target?.EmailAddress?.value;
+    const Service = e.target?.Service?.value;
     const Description = e.target?.Description?.value;
-    console.log(Name, Website, PhoneNumber, EmailAddress, Service, Description);
-Email.send({
-  SecureToken: '8b3e21d7-c267-44f2-a85f-1494d7f1e2c6',
-  Name: Name,
-  Website: Website,
-  PhoneNumber: PhoneNumber,
-  EmailAddress: EmailAddress,
-  Service: Service,
 
-  To: 'mdanowerhossen727@gmail.com', 
-  From: 'mdanowerhossen727@gmail.com', 
-  ReplyTo: EmailAddress,
-  Subject: 'This is the subject',
+    Email.send({
+      SecureToken: '8b3e21d7-c267-44f2-a85f-1494d7f1e2c6',
+      Name: Name,
+      Website: Website,
+      PhoneNumber: PhoneNumber,
+      EmailAddress: EmailAddress,
+      Service: Service,
 
-  Body: `
+      To: 'mdanowerhossen727@gmail.com',
+      From: 'mdanowerhossen727@gmail.com',
+      ReplyTo: EmailAddress,
+      Subject: 'This is the subject',
+
+      Body: `
     Name: ${Name} <br>
     Website: ${Website} <br>
     Phone Number: ${PhoneNumber} <br>
@@ -43,10 +38,7 @@ Email.send({
     Service: ${Service} <br>
     Description: ${Description}
   `,
-}).then(message => alert(message));
-
-
-   
+    }).then(message => alert(message));
   };
   return (
     <div
@@ -54,10 +46,10 @@ Email.send({
      "
     >
       {/* form section  */}
-      <div className="bg-gradient-to-tr from-pink-300 to-blue-300 py-12 min-h-screen flex justify-center items-center ">
+      <div className="bg-gradient-to-tr from-pink-300 to-blue-300 py-12 min-h-screen flex justify-center items-center px-8 ">
         <form
           onSubmit={handleSubmit}
-          className="bg-white container mx-auto rounded-xl shadow-difference "
+          className="bg-white max-w-[1440px] mx-auto rounded-xl shadow-difference  "
         >
           <div className="flex justify-center items-center flex-col">
             <h1 className="text-black font-bold text-2xl pt-8 pb-4">

@@ -3,7 +3,7 @@ import { FaCheck } from 'react-icons/fa6';
 function GrowWithUs() {
   return (
     <div>
-      <div className="   container mx-auto">
+      <div className="   max-w-[1440px] mx-auto">
         <div className="flex  items-center flex-col lg:flex-row">
           <div className="flex-1">
             {' '}
@@ -47,14 +47,7 @@ function GrowWithUs() {
                 <FaCheck className="text-blue-500  " />{' '}
                 <span className="ml-2">Marketing Support</span>{' '}
               </div>
-              <div>
-                <FaCheck className="text-blue-500  " />{' '}
-                <span className="ml-2">Financial Planning</span>{' '}
-              </div>
-              <div>
-                <FaCheck className="text-blue-500  " />{' '}
-                <span className="ml-2">Ongoing Support</span>{' '}
-              </div>
+            
             </div>
           </div>
         </div>

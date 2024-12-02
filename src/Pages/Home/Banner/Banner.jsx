@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 import Button from '../../../Components/Button';
 
 function Banner() {
   return (
     <div>
-      <div className="  pt-10 pb-8 max-h-screen bg-slate-700 text-white ">
-        <div className="flex  items-center flex-col lg:flex-row-reverse container mx-auto">
+      <div className="px-6  pt-10 pb-8 max-h-screen bg-slate-700 text-white ">
+        <div className="flex  items-center flex-col lg:flex-row-reverse max-w-[1440px] mx-auto">
           <div className="flex-1">
             {' '}
             <img
@@ -30,4 +30,4 @@ function Banner() {
   );
 }
 
-export default Banner
+export default Banner;

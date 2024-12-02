@@ -14,11 +14,10 @@ import useAxiosSecure from '../../Hooks/useAxiosSecure';
 import { useQuery } from '@tanstack/react-query';
 
 function Footer() {
-  
   return (
     <>
       <footer className="bg-slate-700 text-white py-24 px-12">
-        <div className="container mx-auto ">
+        <div className="max-w-[1440px] mx-auto ">
           <div className=" lg:ml-12 grid grid-cols-5 gap-8 ">
             <div className="col-span-4 md:col-span-2  lg:col-span-2  lg:text-start md:text-start text-center">
               <h1 className="lg:text-4xl md:text-3xl text-2xl lg:font-extrabold md:font-extrabold font-semibold ">

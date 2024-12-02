@@ -8,7 +8,7 @@ function ServicesItem({text, link }) {
     <>
       <Link
         to={`/all-services/${link}`}
-        className="hover:text-blue-400  text-white   transition-colors duration-300 transform    mx-1.5 sm:mx-6 lg:mx-0"
+        className="hover:text-blue-400 text-[17px] font-semibold  text-white   transition-colors duration-300 transform    mx-1.5 sm:mx-6 lg:mx-0"
       >
         {text}
       </Link>

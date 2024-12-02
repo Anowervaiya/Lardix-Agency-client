@@ -11,6 +11,7 @@ import {
 } from '@tanstack/react-query';
 import AllServicesContainer from './Pages/Services/AllServicesContainer/AllServicesContainer';
 import Contact from './Pages/Contact/Contact';
+import AboutHome from './Pages/AboutUs/AboutHome/AboutHome';
 const queryClient = new QueryClient();
 
 
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element:<Contact></Contact>
+      },
+      {
+        path: '/about',
+       element:<AboutHome></AboutHome> 
       }
     ],
   },

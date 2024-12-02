@@ -40,12 +40,12 @@ function Statistics() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto my-16 ">
+      <div className="max-w-[1440px] mx-auto my-16 ">
         <Zoom>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 *:p-5 *:border-2 *:rounded-lg  gap-2">
             <div className="flex   justify-center mr-4 items-center gap-4">
               <div>
-                <div className="font-extrabold text-5xl text-[#175CFF]">
+                <div className="font-extrabold text-4xl text-[#175CFF]">
                   <CountUp
                     start={0}
                     end={5}
@@ -70,7 +70,7 @@ function Statistics() {
             </div>
             <div className="flex    justify-center mr-4 items-center gap-5">
               <div>
-                <div className="font-extrabold text-5xl text-cyan-700">
+                <div className="font-extrabold text-4xl text-cyan-700">
                   <CountUp
                     start={0}
                     end={100}
@@ -95,7 +95,7 @@ function Statistics() {
 
             <div className="flex    justify-center mr-4 items-center gap-5">
               <div>
-                <div className="font-extrabold text-5xl text-secondary">
+                <div className="font-extrabold text-4xl text-secondary">
                   <CountUp
                     start={0}
                     enableScrollSpy="true"
@@ -120,7 +120,7 @@ function Statistics() {
 
             <div className="flex    justify-center mr-4 items-center gap-5">
               <div>
-                <div className="font-extrabold text-5xl text-[#5CC9A7]">
+                <div className="font-extrabold text-4xl text-[#5CC9A7]">
                   <CountUp
                     start={0}
                     enableScrollSpy="true"
@@ -144,7 +144,7 @@ function Statistics() {
             </div>
             <div className="flex    justify-center mr-4 items-center gap-5">
               <div>
-                <div className="font-extrabold text-5xl">
+                <div className="font-extrabold text-4xl">
                   <CountUp
                     start={0}
                     enableScrollSpy="true"

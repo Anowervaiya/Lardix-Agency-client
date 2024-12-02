@@ -1,15 +1,26 @@
-import React from 'react'
+import React from 'react';
 import PricessCard from './PricessCard';
 
 function WorkProcess() {
   return (
-    <div className=" container mx-auto p-4">
-      <div className='mt-24 mb-16'>
-        <div className="border-l-[6px] h-[50px] border-indigo-500 ">
-          <h1 className="text-4xl font-bold ml-4">Our Work Process</h1>
+    <div className=" max-w-[1440px] mx-auto p-4">
+      <div className="mt-6 lg:mt-0 mb-12">
+        <div className=" ">
+          <h1 className="text-xl text-blue-700 text-center font-bold ml-4 mb-4">
+            Process
+          </h1>
         </div>
-        <div className="">
-          <h1 className=" ml-6 lg:w-1/2">
+        <div className=" ">
+          <h1 className="text-4xl text-center font-bold ml-4">
+            Our Work{' '}
+            <span className="font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+              {' '}
+              Process
+            </span>
+          </h1>
+        </div>
+        <div className="lg:w-3/4 mx-auto">
+          <h1 className=" ml-6 mt-4 text-[#52525c]  text-center">
             Our work process is streamlined to ensure efficiency and clarity. We
             begin with understanding client needs, followed by strategic
             planning, execution, and continuous feedback to deliver optimal
@@ -73,4 +84,4 @@ function WorkProcess() {
   );
 }
 
-export default WorkProcess
+export default WorkProcess;
