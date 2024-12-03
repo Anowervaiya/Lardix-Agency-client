@@ -81,7 +81,7 @@ function OurGoal() {
         </div>
         <div className="flex-1 ">
           <img
-            src="src/assets/roi.webp"
+            src="src/assets/roi2.avif"
             className="w-full  h-[500px] lg:h-full"
           />
           {/* <ProgressBar text={'SEO'} percentage={'90'}></ProgressBar>
