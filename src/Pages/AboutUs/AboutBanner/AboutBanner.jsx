@@ -2,7 +2,7 @@ import React from 'react'
 import { BsDot } from 'react-icons/bs';
 function AboutBanner() {
   return (
-    <div className="bg-[#0B163F] min-h-56  text-white ">
+    <div className="bg-white min-h-56  text-black ">
       <div className='text-center text-2xl font-bold pt-16 '>About Us</div>
 
       <div className='flex justify-center items-center gap-2 pt-6'>

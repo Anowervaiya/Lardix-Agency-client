@@ -10,7 +10,7 @@ function AboutHome() {
   return (
     <div className='pt-20'>
      
-      <AboutBanner></AboutBanner>
+      {/* <AboutBanner></AboutBanner> */}
       <OurTeam></OurTeam>
       <OurGoal></OurGoal>
       <WhyChooseUs></WhyChooseUs>

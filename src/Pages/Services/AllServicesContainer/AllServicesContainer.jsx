@@ -52,9 +52,9 @@ function AllServicesContainer({ ServiceType }) {
       {/* heading design  */}
       <div className="mt-16 ">
         <HeadingDesing
-          text={`${data?.name} key services`}
+          text1={`${data?.name} key services`}
           description={
-            'We have been in the IT industry for the last 2 years. Within this time, Lardix Agency has been transformed from the a "SEO Agency" to a full scale "Digital Marketing Agency".'
+           `${data?.description}`
           }
         ></HeadingDesing>
       </div>{' '}

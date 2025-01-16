@@ -28,7 +28,7 @@ function HomeContainer() {
       <WhyChooseUs></WhyChooseUs>
 <HowLardixCreateBusinessGrowth></HowLardixCreateBusinessGrowth>
       <OurGoal></OurGoal>
-      {/* <ExpertiseAreas></ExpertiseAreas> */}
+      <ExpertiseAreas></ExpertiseAreas>
       <OurTeam></OurTeam>
       <WhatMakesUsDifference></WhatMakesUsDifference>
       <Statistics></Statistics>

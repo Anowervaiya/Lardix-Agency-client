@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeadingDesing({text1,text2,description,keyword}) {
   return (
-    <div className="mt-6 lg:mt-0 mb-12">
+    <div className="mt-6 lg:mt-0 mb-6">
       <div className=" ">
         <h1 className="text-xl text-blue-700 text-center font-semibold ml-4 mb-2">
           {keyword}
