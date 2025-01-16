@@ -5,6 +5,11 @@ import { useQuery } from '@tanstack/react-query';
 import Loading from '../../Components/Loading';
 import { Link } from 'react-router-dom';
 import './navbar.css'
+import { TfiLayoutLineSolid } from 'react-icons/tfi';
+import { HiOutlineBars3 } from 'react-icons/hi2';
+
+import { MdKeyboardArrowDown } from 'react-icons/md';
+
 function Navbar() {
   
   const [dropdown, setDropdown] = useState(false);
@@ -20,25 +25,27 @@ function Navbar() {
     },
   });
 
-  if (isLoading) return <Loading></Loading>;
+  if (isLoading) return ' ';
   
   const ListContainer = (
     <>
       <Link
         to={'/'}
-        className="border-b-2 text-[18px] font-semibold   text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
+        className="border-b-2 text-[18px] font-semibold   text-black border-transparent hover:text-blue-500 transition-colors duration-300 transform   mx-1.5 sm:mx-6"
       >
         Home
       </Link>
 
-      <div className="border-b-2 text-[18px] font-semibold  text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6 group relative">
-        Services
-        <div
-          className="hidden group-hover:block absolute left-[67px] lg:left-0 top-0 lg:top-6 bg-[#0B163F] shadow shadow-violet-400
-        "
-        >
-          {' '}
-          <div className="flex flex-col w-64 p-4 *:mb-2">
+      <div className="border-b-2 text-[18px] font-semibold text-black border-transparent hover:text-blue-500 mx-1.5 sm:mx-6 group relative cursor-pointer">
+        <div className="flex items-center justify-center group gap-2">
+          <span>Services</span>{' '}
+          <MdKeyboardArrowDown className=" transition-transform group-hover:rotate-180 mt-2" />
+        </div>
+        <div className="hidden group-hover:block  absolute left-[67px] lg:-left-20 -top-10 lg:top-0  cursor-pointer bg-none p-10 lg:py-12">
+          <div
+            className="flex flex-col w-64 p-4 lg:space-y-5 space-y-3
+           bg-white text-black opacity-100 border rounded-lg"
+          >
             <ServicesItem text={'SEO'} link={'SEO'}></ServicesItem>
             <ServicesItem
               text={'Web Design'}
@@ -63,24 +70,23 @@ function Navbar() {
           </div>
         </div>
       </div>
-
       <Link
         to={'about'}
-        className="border-b-2 text-[18px] font-semibold text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
+        className="border-b-2 text-[18px] font-semibold text-black border-transparent hover:text-blue-500 transition-colors duration-300 transform   mx-1.5 sm:mx-6"
       >
         About
       </Link>
 
       {/* <Link
         to={'career'}
-        className="border-b-2 text-[18px] font-semibold  text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
+        className="border-b-2 text-[18px] font-semibold  text-black border-transparent hover:text-blue-500 transition-colors duration-300 transform   mx-1.5 sm:mx-6"
       >
         Career
       </Link> */}
 
       <Link
         to={'/contact'}
-        className="border-b-2 text-[18px] font-semibold  text-white border-transparent hover:text-blue-500 transition-colors duration-300 transform   hover:border-blue-500 mx-1.5 sm:mx-6"
+        className="border-b-2 text-[18px] font-semibold  text-black border-transparent hover:text-blue-500 transition-colors duration-300 transform   mx-1.5 sm:mx-6"
       >
         Contact
       </Link>
@@ -89,13 +95,13 @@ function Navbar() {
 
 
   return (
-    <div className="h-[80px] z-50 fixed top-0 left-0 right-0 px-6 bg-[#0B163F]">
+    <div className=" z-50 fixed top-0 left-0 right-0 px-6 bg-white shadow-sm border-b">
       <div
         className=" w-full   max-w-[1440px] mx-auto 
-      text-white"
+      text-black"
       >
-        <div className="  flex items-center  justify-between  gap-64  w-full ">
-          <div className="flex lg:hidden justify-start items-center pt-3 ">
+        <div className="  flex items-center  justify-between  gap-x-64  w-full ">
+          <div className="flex lg:hidden justify-start items-center   ">
             <div className="  dropdown relative">
               <div
                 tabIndex={0}
@@ -103,32 +109,19 @@ function Navbar() {
                   setDropdown(!dropdown);
                 }}
                 role="button"
-                className="btn btn-ghost "
+                className=" "
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />
-                </svg>
+                <HiOutlineBars3  className='text-2xl mr-2 '/>
               </div>
               {dropdown ? (
                 <>
                   {' '}
-                  <div className="absolute top-8 left-0 bg-[#0B163F] ">
+                  <div className="absolute top-8 left-0  ">
                     <ul
                       tabIndex={0}
-                      className="menu menu-sm dropdown-content   rounded-box z-[1] mt-3 w-52 p-2 shadow-md shadow-violet-300"
+                      className="menu menu-sm dropdown-content   rounded-box z-[1] mt-3 w-52 p-2 bg-white shadow-differenceCard z-50shadow-violet-300"
                     >
-                      <div className="container flex flex-col items-center justify-center p-6 mx-auto bg-[#0B163F] capitalize   ">
+                      <div className="container flex flex-col items-center justify-center p-6 mx-auto  capitalize   space-y-3 ">
                         {ListContainer}
                       </div>
                     </ul>
@@ -144,7 +137,7 @@ function Navbar() {
                 className=" text-xl md:text-2xl lg:text-3xl font-bold text-start  
              "
               >
-                Lardix
+                <img src="/logo.png" className="w-[100px]" alt="" />
               </Link>
             </div>
           </div>
@@ -155,12 +148,12 @@ function Navbar() {
                 className=" text-xl md:text-2xl lg:text-3xl font-bold   
              "
               >
-                Lardix
+                <img src="/logo.png" className="w-8/12" alt="" />
               </Link>
             </div>
             <div>
               <ul className="menu menu-horizontal px-1">
-                <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize   ">
+                <div className="container flex items-center justify-center *:px-6 mx-auto text-gray-600 capitalize   ">
                   {ListContainer}
                 </div>
               </ul>

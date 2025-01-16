@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { FaCheck } from 'react-icons/fa6';
 
 function OurTeam() {
@@ -11,20 +11,19 @@ function OurTeam() {
         >
           <div className="flex-1">
             {' '}
-            <img
-              src="src/assets/team.jpg"
-              className="w-full  h-[500px] lg:h-full"
-            />
+            <img src="/team.jpg" className="w-full  h-[500px] lg:h-full" />
           </div>
           <div className="flex-1  text-center lg:text-start ">
             <h1 className="text-4xl font-bold leading-snug">
               We’re a Team of 13+ Smart People In 5 Countries
             </h1>
             <p className="py-6 leading-7">
-              Our dynamic team of skilled professionals, spread across multiple
-              countries, combines innovation, expertise, and collaboration to
-              deliver tailored solutions in digital marketing, development, and
-              design, ensuring success for every project.{' '}
+              Our dynamic team of skilled professionals, located across multiple
+              countries, thrives on innovation, expertise, and collaboration.
+              With a passion for excellence, we specialize in digital marketing,
+              development, and design. We leverage cutting-edge strategies and
+              creative insights to deliver personalized solutions, ensuring each
+              project achieves its unique goals and exceeds client expectations.
             </p>
 
             <div className="text-start flex lg:justify-start justify-center gap-12 items-center mx-auto lg:mx-0 ">
@@ -64,4 +63,4 @@ function OurTeam() {
   );
 }
 
-export default OurTeam
+export default OurTeam;

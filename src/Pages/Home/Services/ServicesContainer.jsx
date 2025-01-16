@@ -1,13 +1,13 @@
 import React from 'react';
 import ServicesCard from './ServicesCard';
-import { useQuery } from '@tanstack/react-query';
+import {  useQuery } from '@tanstack/react-query';
 import useAxiosSecure from '../../../Hooks/useAxiosSecure';
 import Loading from '../../../Components/Loading';
 import HeadingDesing from '../../../Components/HeadingDesing';
 
 function ServicesContainer() {
   const AxiosSecure = useAxiosSecure();
-  const { data: ServicesData, isLoading } = useQuery({
+  const { data, isLoading } = useQuery({
     queryKey: ['top-services'],
 
     queryFn: async () => {
@@ -17,21 +17,38 @@ function ServicesContainer() {
     },
   });
 
-  if (isLoading) return <Loading></Loading>;
+  if (isLoading) return ' ';
 
   return (
     <div>
-      <HeadingDesing
-        text={'Our Services'}
-        description={
-          ' We have been in the IT industry for the last 5 years. Within this time, Lardix Agency has been transformed from the a "SEO Agency in Bangladesh" to a full scale "Digital Marketing Agency".'
-        }
-      ></HeadingDesing>
+      <div className="mt-6 lg:mt-0 mb-12">
+        <div className=" ">
+          <h1 className="text-xl text-blue-700 text-center font-semibold ml-4 mb-2">
+            Service
+          </h1>
+        </div>
+        <div className=" ">
+          <h1 className="text-4xl text-center font-bold ml-4">
+            Our{' '}
+            <span className="font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+              {' '}
+              Services
+            </span>
+          </h1>
+        </div>
+        <div className="lg:w-3/4 mx-auto">
+          <h1 className=" ml-6 mt-4 text-[#52525c]  text-center">
+            We have been in the Digital industry for the last 5 years. Within this
+            time, Lardix Agency has been transformed from the a "Best Digital Agency in the world".
+          </h1>
+        </div>
+      </div>
+
       <div className="max-w-[1440px] mx-auto my-16 px-3">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
-          {ServicesData.map((item, index) => {
-            return <ServicesCard item={item} key={index}></ServicesCard>;
-          })}
+          {data?.map((item, index) => (
+            <ServicesCard item={item} key={index}></ServicesCard>
+          ))}
         </div>
       </div>
     </div>

@@ -6,10 +6,10 @@ function WhyLardix() {
     <div className="">
       <div className="  ">
         <div className=" py-16 px-4 max-w-[1440px] mx-auto flex  flex-col justify-between lg:flex-row-reverse">
-          <div className=" flex-1 mx-auto *:rounded-lg">
+          <div className=" flex-1 mx-auto *:rounded-lg ">
             {' '}
             <img
-              src="src/assets/whyLardix.gif"
+              src="/whyLardix.gif"
               className="  md:w-full h-[350px] md:h-[500px] lg:h-full"
             />
           </div>
@@ -17,7 +17,7 @@ function WhyLardix() {
             <div className="my-10">
               <div className="border-l-[6px] h-[50px] border-indigo-500 text-start ">
                 <h1 className="text-4xl font-bold ml-4">
-                  <span className="font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+                  <span className="font-bold ">
                     {' '}
                     Why Lardix
                   </span>
@@ -39,7 +39,7 @@ function WhyLardix() {
               >
                 <div className="w-[80px] h-[70px] border rounded-xl shadow-service ">
                   <img
-                    src="/src/assets/actionable.png"
+                    src="/actionable.png"
                     alt=""
                     className="p-3 h-[70px] mx-auto"
                   />
@@ -58,7 +58,7 @@ function WhyLardix() {
               >
                 <div className="w-[80px] h-[70px] border rounded-xl shadow-service">
                   <img
-                    src="/src/assets/stretigic.png"
+                    src="/stretigic.png"
                     alt=""
                     className="p-3 h-[70px] mx-auto"
                   />
@@ -77,7 +77,7 @@ function WhyLardix() {
               >
                 <div className="w-[80px] h-[70px] border rounded-xl shadow-service ">
                   <img
-                    src="/src/assets/trendspot.png"
+                    src="/trendspot.png"
                     alt=""
                     className="p-3  h-[70px] mx-auto"
                   />

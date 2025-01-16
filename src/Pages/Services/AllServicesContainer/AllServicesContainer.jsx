@@ -27,7 +27,7 @@ function AllServicesContainer({ ServiceType }) {
       {/* first banner  */}
       <div
         className=" px-6  pt-28 pb-12
-     bg-slate-700 text-white max-h-screen "
+      text-black max-h-screen "
       >
         <div className=" max-w-[1440px] mx-auto flex justify-between items-center flex-col lg:flex-row-reverse ">
           <div>
@@ -42,6 +42,9 @@ function AllServicesContainer({ ServiceType }) {
             <p className="py-6 text-[20px] max-w-[700px] leading-8">
               {data?.description}
             </p>
+            <div>
+              <Button text={'Explore More'}></Button>
+            </div>
           </div>
         </div>
       </div>

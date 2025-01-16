@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import ProgressBar from './ProgressBar';
 function OurGoal() {
@@ -26,7 +26,7 @@ function OurGoal() {
             >
               <div className="w-[80px] h-[70px] border rounded-xl shadow-service">
                 <img
-                  src="/src/assets/actionable.png"
+                  src="/actionable.png"
                   alt=""
                   className="p-3 h-[70px] mx-auto"
                 />
@@ -45,7 +45,7 @@ function OurGoal() {
             >
               <div className="w-[80px] h-[70px] border rounded-xl shadow-service">
                 <img
-                  src="/src/assets/stretigic.png"
+                  src="/stretigic.png"
                   alt=""
                   className="p-3 h-[70px] mx-auto"
                 />
@@ -64,7 +64,7 @@ function OurGoal() {
             >
               <div className="w-[80px] h-[70px] border rounded-xl shadow-service ">
                 <img
-                  src="/src/assets/trendspot.png"
+                  src="/trendspot.png"
                   alt=""
                   className="p-3  h-[70px] mx-auto"
                 />
@@ -80,10 +80,7 @@ function OurGoal() {
           </div>
         </div>
         <div className="flex-1 ">
-          <img
-            src="src/assets/roi2.avif"
-            className="w-full  h-[500px] lg:h-full"
-          />
+          <img src="/roi2.avif" className="w-full  h-[500px] lg:h-full" />
           {/* <ProgressBar text={'SEO'} percentage={'90'}></ProgressBar>
           <ProgressBar text={'web Development'} percentage={'90'}></ProgressBar>
           <ProgressBar text={'Graphics Design'} percentage={'86'}></ProgressBar>
@@ -102,4 +99,4 @@ function OurGoal() {
   );
 }
 
-export default OurGoal
+export default OurGoal;
