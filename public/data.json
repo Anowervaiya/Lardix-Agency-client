@@ -1,0 +1,272 @@
+[
+  {
+    "_id": "6737b30283c16d4102a00b29",
+    "name": "SEO",
+    "description": "We provide comprehensive SEO services, optimizing your website for higher search rankings, increased traffic, and better online visibility.",
+    "icon": "https://i.ibb.co.com/w05Y5Yk/SEO.png",
+    "link": "SEO",
+    "banner": "https://i.ibb.co.com/n3WNd81/seo.gif",
+    "secondBanner": {
+      "heading": "Maximize Your Online Visibility with Expert SEO Services",
+      "description": "Boost your website’s search engine rankings and drive organic traffic with customized SEO strategies. Our SEO experts in Bangladesh utilize proven techniques to enhance your online visibility and business growth.",
+      "image": "https://i.ibb.co.com/nch5XPR/seo-concept-idea-search-engine-optimization-website-as-marketing-strategy-people-make-web-page-promo.jpg"
+    },
+    "sub-services": [
+      {
+        "heading": "Keyword Research",
+        "description": "Identify high-traffic, relevant keywords for your business to attract the right audience, ensuring that your website appears in top search results",
+        "image": "https://i.ibb.co.com/WgpYKyy/images-removebg-preview-1.png"
+      },
+      {
+        "heading": "On-Page SEO",
+        "description": "Optimize your website’s content, structure, and HTML elements to ensure that it ranks higher, increases visibility, and provides a better user experience",
+        "image": "https://i.ibb.co.com/Pw1j1m6/download-removebg-preview-4.png"
+      },
+      {
+        "heading": "Technical SEO",
+        "description": "Improve site speed, mobile responsiveness, and crawlability, ensuring search engines can properly index your pages and your website performs well across devices.",
+        "image": "https://i.ibb.co.com/S3Yd1KW/download-removebg-preview-5.png"
+      },
+      {
+        "heading": "Local SEO",
+        "description": "Optimize your website for location-based searches, ensuring that your business ranks high in local results and attracts nearby customers.",
+        "image": "https://i.ibb.co.com/4sCvYHT/download-removebg-preview-6.png"
+      },
+      {
+        "heading": "SEO Audits",
+        "description": "Perform comprehensive website audits to identify issues that could negatively impact your SEO performance, and implement strategies to fix them.",
+        "image": "https://i.ibb.co.com/0M7jvK7/download-removebg-preview-7.png"
+      },
+      {
+        "heading": "Link Building",
+        "description": "Increase your website’s authority and rankings by acquiring high-quality backlinks from reputable sources within your industry, driving organic traffic to your site.",
+        "image": "https://i.ibb.co.com/n0QYSqm/images-removebg-preview-2.png"
+      }
+    ]
+  },
+  {
+    "_id": "6737b30283c16d4102a00b26",
+    "name": "Web Design",
+    "description": "We provide professional web design services, creating modern, responsive, and user-friendly websites tailored to your business needs",
+    "icon": "https://i.ibb.co.com/GC2W5bF/Web.png",
+    "link": "Web-Design",
+    "banner": "https://i.ibb.co.com/PTyxRc2/web-design.gif",
+    "secondBanner": {
+      "heading": "Design Stunning Websites with the Best Web Designers",
+      "description": "Bring your brand to life with beautifully crafted websites that offer both design and functionality. Our web designers focus on creating an exceptional user experience and a visually engaging design that converts visitors into customers.",
+      "image": "https://i.ibb.co.com/wcSHh44/360-F-447036650-Bwt-W5-Sm-AIxgd-Jx-Jun-Rvkiays-Lkjg-DAFB.jpg"
+    },
+    "sub-services": [
+      {
+        "heading": "Responsive Web Design",
+        "description": "Design websites that adapt seamlessly to all screen sizes, delivering optimal user experiences across desktops, tablets, and mobile devices, ensuring a responsive design.",
+        "image": "https://i.ibb.co.com/26KQmd6/images-removebg-preview-4.png"
+      },
+      {
+        "heading": "UI/UX Optimization",
+        "description": "Enhance usability and design with clear, intuitive navigation, improving user experience and conversion rates through effective user interface and experience design strategies.",
+        "image": "https://i.ibb.co.com/njZZN2b/download-removebg-preview-21.png"
+      },
+      {
+        "heading": "Custom Web Design",
+        "description": "Develop unique, tailored websites that reflect your brand’s identity, stand out in the market, and provide a memorable experience for your visitors.",
+        "image": "https://i.ibb.co.com/DM3PXvF/download-removebg-preview-17.png"
+      },
+      {
+        "heading": "E-Commerce Web Design",
+        "description": "Create secure, easy-to-navigate e-commerce websites that drive sales, enhance user experience, and ensure smooth online transactions for customers.",
+        "image": "https://i.ibb.co.com/Qm7Pqqr/download-removebg-preview-16.png"
+      },
+      {
+        "heading": "Website Redesign",
+        "description": "Refresh outdated websites with modern design trends, improving aesthetics, functionality, and conversion potential while staying true to your brand identity.",
+        "image": "https://i.ibb.co.com/BNwJjYg/download-removebg-preview-19.png"
+      },
+      {
+        "heading": "Brand Integration",
+        "description": "Seamlessly incorporate your branding elements, ensuring consistency across all design aspects, and reinforcing your brand’s message throughout the user journey.",
+        "image": "https://i.ibb.co.com/kqBmLDk/download-removebg-preview-20.png"
+      }
+    ]
+  },
+  {
+    "_id": "6737b30283c16d4102a00b28",
+    "name": "Digital Marketing",
+    "description": "We offer comprehensive digital marketing services, including SEO, social media management, PPC, content marketing, and email campaigns to boost your brand's online presence and drive results.",
+    "icon": "https://i.ibb.co.com/TLMLdS5/digital-Marketing.png",
+    "link": "Digital-Marketing",
+    "banner": "https://i.ibb.co.com/nPc8NFZ/marketing-banner.gif",
+    "secondBanner": {
+      "heading": "Boost Your Brand’s Online Presence with Premier Digital Marketing Services",
+      "description": "Drive meaningful business growth with tailored digital marketing strategies that increase brand visibility, engage your target audience, and maximize conversions. Our digital marketing experts in Bangladesh use proven techniques to help you succeed in the digital world.",
+      "image": "https://i.ibb.co.com/6XcjBk6/digital-marketing-and-teamwork-at-office-concept-illustration-of-people-characters-in-flat-design-ve.jpg"
+    },
+    "sub-services": [
+      {
+        "heading": "Social Media Marketing",
+        "description": "Build brand awareness, engage users, and grow your following on platforms like Facebook, Instagram, and LinkedIn, creating long-term relationships with customers.",
+        "image": "https://i.ibb.co.com/wBY1thq/download-removebg-preview-3.png"
+      },
+      {
+        "heading": "Paid Advertising (PPC)",
+        "description": "Run effective pay-per-click campaigns on Google, Facebook, and other platforms, driving immediate traffic, targeted leads, and higher conversion rates.",
+        "image": "https://i.ibb.co.com/sCmdN9z/Main-Image-removebg-preview.png"
+      },
+      {
+        "heading": "Content Marketing",
+        "description": "Create valuable, relevant content that educates, entertains, and converts your audience, improving brand trust, engagement, and long-term loyalty.",
+        "image": "https://i.ibb.co.com/xsNsYRQ/download-removebg-preview-2.png"
+      },
+      {
+        "heading": "Email Marketing",
+        "description": "Craft personalized, automated email campaigns that nurture leads, inform customers, and drive conversions while keeping your audience engaged over time.",
+        "image": "https://i.ibb.co.com/5Fds5CL/download-removebg-preview-1.png"
+      },
+      {
+        "heading": "Influencer Marketing",
+        "description": "Partner with key influencers to enhance brand credibility, expand your reach, and create authentic connections with a wider audience, boosting conversions.",
+        "image": "https://i.ibb.co.com/brBLX16/download-removebg-preview.png"
+      },
+      {
+        "heading": "Analytics & Reporting",
+        "description": "Measure and analyze campaign performance with data-driven insights, allowing for continuous optimization and ensuring you achieve maximum ROI and business growth.",
+        "image": "https://i.ibb.co.com/L1yPmtJ/analytics.png"
+      }
+    ]
+  },
+  {
+    "_id": "6737b30283c16d4102a00b27",
+    "name": "Web Development",
+    "description": "We provide professional web development services, creating responsive, user-friendly websites tailored to meet your business needs and goals.",
+    "link": "Web-Development",
+    "icon": "https://i.ibb.co.com/GPpT7k8/Web-Development.png",
+    "banner": "https://i.ibb.co.com/9yDLnBH/develop-web.gif",
+    "secondBanner": {
+      "heading": "Transform Your Online Presence with Expert Web Developers",
+      "description": "Power up your website with robust, scalable web development solutions. Our web developers create websites that are not only visually appealing but also highly functional, secure, and easy to maintain.",
+      "image": "https://i.ibb.co.com/F06dYn8/web-development-programming-languages-css-html-it-ui-programmer-cartoon-character-developing-website.jpg"
+    },
+    "sub-services": [
+      {
+        "heading": "Custom Web Development",
+        "description": "Build highly tailored, scalable websites that meet your unique business needs, providing flexibility and control over design, functionality, and growth.",
+        "image": "https://i.ibb.co.com/DM3PXvF/download-removebg-preview-17.png"
+      },
+      {
+        "heading": "E-Commerce Development",
+        "description": "Develop secure, feature-rich online stores with seamless shopping experiences, integrated payment systems, and easy-to-manage backend solutions for business owners.",
+        "image": "https://i.ibb.co.com/Qm7Pqqr/download-removebg-preview-16.png"
+      },
+      {
+        "heading": "CMS Integration",
+        "description": "Implement user-friendly content management systems like WordPress or Joomla, enabling easy content updates and management for your team without technical expertise.",
+        "image": "https://i.ibb.co.com/D4XjxMR/download-removebg-preview-14.png"
+      },
+      {
+        "heading": "API Integrations",
+        "description": "Integrate third-party services, such as payment gateways, CRMs, and social media, into your website to enhance functionality and streamline operations.",
+        "image": "https://i.ibb.co.com/Bry8Q9x/download-removebg-preview-18.png"
+      },
+      {
+        "heading": "Website Optimization",
+        "description": "Optimize your website for better speed, performance, and usability, ensuring fast loading times and improved user satisfaction.",
+        "image": "https://i.ibb.co.com/kywQXy7/download-removebg-preview-8.png"
+      },
+      {
+        "heading": "Website Maintenance",
+        "description": "Provide ongoing support, updates, and security measures to keep your website functioning optimally and secure from potential threats.",
+        "image": "https://i.ibb.co.com/XDwMq8j/images-removebg-preview-3.png"
+      }
+    ]
+  },
+  {
+    "_id": "6737b30283c16d4102a00b2a",
+    "name": "Graphics Design",
+    "description": "We offer professional graphic design services, creating visually stunning logos, branding, social media graphics, and marketing materials tailored to your business needs.",
+    "icon": "https://i.ibb.co.com/KjRWntN/graphics.png",
+    "link": "Graphics-Design",
+    "banner": "https://i.ibb.co.com/Tvpn27m/istockphoto-1285476239-612x612-removebg-preview.png",
+    "secondBanner": {
+      "heading": "Stand Out with Creative Graphics Design Services",
+      "description": "Captivate your audience with stunning visual designs that tell your brand’s story. Our graphic design experts in Bangladesh create impactful graphics that enhance your marketing efforts and communicate your brand identity effectively.",
+      "image": "https://i.ibb.co.com/MSVSmtv/graphic-design-n-animation-vector.webp"
+    },
+    "sub-services": [
+      {
+        "heading": "Logo Design",
+        "description": "Create unique, memorable logos that represent your brand’s identity, leaving a lasting impression and setting you apart from competitors.",
+        "image": "https://i.ibb.co.com/FYGjsQ5/download-removebg-preview-22.png"
+      },
+      {
+        "heading": "Social Media Graphics",
+        "description": "Design eye-catching visuals for social media posts, ads, and banners that engage your audience, increase shares, and drive traffic to your website.",
+        "image": "https://i.ibb.co.com/NrR4Xx9/images-removebg-preview-5.png"
+      },
+      {
+        "heading": "Brochure & Flyer Design",
+        "description": "Develop professional, high-quality printed materials like brochures and flyers that clearly convey your message and attract potential customers.",
+        "image": "https://i.ibb.co.com/tqt6tqM/Brochure-flyer-Design-Service-in-Bangladesh.png"
+      },
+      {
+        "heading": "Packaging Design",
+        "description": "Create product packaging that enhances brand recognition, appeals to customers, and ensures functionality, safety, and aesthetics in one.",
+        "image": "https://i.ibb.co.com/VjLbBf5/download-removebg-preview-23.png"
+      },
+      {
+        "heading": "Infographics",
+        "description": "Design clear, visually engaging infographics that communicate complex information in an easy-to-understand, shareable format, driving user engagement.",
+        "image": "https://i.ibb.co.com/HKWTHLw/images-removebg-preview-6.png"
+      },
+      {
+        "heading": "Display Ads",
+        "description": "Design striking, compelling banner ads that capture attention, reinforce brand messaging, and encourage users to take action on digital platforms.",
+        "image": "https://i.ibb.co.com/kHBMts1/images-removebg-preview-7.png"
+      }
+    ]
+  },
+  {
+    "_id": "6737b30283c16d4102a00b2b",
+    "name": "Mobile App Development",
+    "description": "We offer end-to-end mobile app development services, creating custom, user-friendly apps for iOS and Android platforms.",
+    "icon": "https://i.ibb.co.com/vDYyw7n/Mobile-Development.png",
+    "link": "App-Development",
+    "banner": "https://i.ibb.co.com/pvX6LwV/output-onlinegiftools.gif",
+    "secondBanner": {
+      "heading": "Build the Future with Cutting-Edge App Development",
+      "description": "Create innovative, user-friendly mobile apps that engage your audience and drive business success. Our expert app developers in Bangladesh specialize in building custom iOS and Android apps tailored to your needs.",
+      "image": "https://i.ibb.co.com/qyTrnFD/pngtree-modern-flat-design-concept-of-mobile-app-development-with-characters-building-png-image-2157.jpg"
+    },
+    "sub-services": [
+      {
+        "heading": "iOS & Android App Development",
+        "description": "Develop high-performance, secure apps for both iOS and Android, ensuring native functionality, smooth user experiences, and scalability for long-term success.",
+        "image": "https://i.ibb.co.com/2cBnf13/download-removebg-preview-12.png"
+      },
+      {
+        "heading": "Cross-Platform Development",
+        "description": "Build efficient, cost-effective apps that work seamlessly across platforms using frameworks like React Native, ensuring broad audience reach and enhanced user engagement.",
+        "image": "https://i.ibb.co.com/XtNsRBg/download-removebg-preview-11.png"
+      },
+      {
+        "heading": "App UI/UX Design",
+        "description": "Design intuitive, attractive user interfaces that provide a smooth, enjoyable experience, boosting user retention and satisfaction through thoughtful design and usability.",
+        "image": "https://i.ibb.co.com/MCNyv3Y/download-removebg-preview-10.png"
+      },
+      {
+        "heading": "Backend Development",
+        "description": "Create secure, scalable back-end infrastructure for your app, supporting seamless user interactions, data management, and integration with third-party services or APIs.",
+        "image": "https://i.ibb.co.com/f46NcQy/download-removebg-preview-9.png"
+      },
+      {
+        "heading": "App Testing & Debugging",
+        "description": "Conduct thorough testing to identify and fix bugs, ensuring your app performs flawlessly and delivers a reliable experience for users.",
+        "image": "https://i.ibb.co.com/kywQXy7/download-removebg-preview-8.png"
+      },
+      {
+        "heading": "App Maintenance & Support",
+        "description": "Provide ongoing support and regular updates, ensuring your app remains secure, relevant, and functional as technology evolves.",
+        "image": "https://i.ibb.co.com/6NqJ2NF/maintenance.png"
+      }
+    ]
+  }
+]

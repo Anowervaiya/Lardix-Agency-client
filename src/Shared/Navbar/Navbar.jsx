@@ -14,18 +14,7 @@ function Navbar() {
   
   const [dropdown, setDropdown] = useState(false);
 
-  const AxiosSecure = useAxiosSecure();
-  const { data: ServicesData, isLoading } = useQuery({
-    queryKey: ['top-services-list'],
 
-    queryFn: async () => {
-      const data = await AxiosSecure('/top-services');
-
-      return data?.data;
-    },
-  });
-
-  if (isLoading) return ' ';
   
   const ListContainer = (
     <>
