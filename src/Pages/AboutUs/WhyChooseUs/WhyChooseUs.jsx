@@ -8,8 +8,8 @@ import { MdDisplaySettings } from 'react-icons/md';
 import { PiUserFocusBold } from 'react-icons/pi';
 function WhyChooseUs() {
   return (
-    <div>
-      <div className=" max-w-[1440px] mx-auto p-4">
+    <div className='bg-gray-50 p-4 pb-16'>
+      <div className=" max-w-[1440px] mx-auto ">
         <div className="mt-10 mb-16">
           <div>
             <h1 className="text-xl text-blue-700 text-center font-bold ml-4 mb-4">

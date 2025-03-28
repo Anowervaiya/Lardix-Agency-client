@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../../../Shared/Navbar/Navbar'
 import Banner from '../Banner/Banner'
 import ServicesContainer from '../Services/ServicesContainer'
@@ -14,18 +14,27 @@ import WhyChooseUs from '../../AboutUs/WhyChooseUs/WhyChooseUs';
 import OurTeam from '../../AboutUs/OurTeam/OurTeam';
 import FAQ from '../../AboutUs/FAQ/FAQ';
 import WhatMakesUsDifference from '../../Services/AllServicesContainer/WhatMakesUsDifference';
+import BannerStatistics from '../Banner/BannerStatistics';
+import { Titled } from 'react-titled';
 
 function HomeContainer() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div >
       
-    
+         <Titled title={"Best Digital Service Agency In Bangladesh"}>
+         
+          
+         </Titled>;
         <Banner></Banner>
+        <BannerStatistics></BannerStatistics>
       <GrowWithUs></GrowWithUs>
       <ServicesContainer></ServicesContainer>
-      <WhyLardix></WhyLardix>
-      <WorkProcess></WorkProcess>
       <WhyChooseUs></WhyChooseUs>
+      <WorkProcess></WorkProcess>
+      <WhyLardix></WhyLardix>
 <HowLardixCreateBusinessGrowth></HowLardixCreateBusinessGrowth>
       <OurGoal></OurGoal>
       <ExpertiseAreas></ExpertiseAreas>

@@ -155,7 +155,7 @@ function ExpertiseAreas() {
         <SwiperSlide>
           <ExpertiseCard
             image={'/expertise (18).jfif'}
-            heading={'Web Design Design'}
+            heading={'Web Design'}
             desc={
               'Expertise in Responsive Web Design, Custom Web Development, E-Commerce Solutions, User-Friendly Interfaces, and SEO Optimization.'
             }

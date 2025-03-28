@@ -1,9 +1,77 @@
 import React from 'react';
 import PricessCard from './PricessCard';
 
+import { useEffect, useState } from "react"
+import { motion } from "framer-motion"
 function WorkProcess() {
+  const cards = [
+    {
+      id: 1,
+      name: "Requirment",
+      logo: "/placeholder.svg?height=80&width=80",
+      color: "bg-white",
+      pinColor: "#FF69B4",
+      swingDirection: "right",
+      swingAmount: 6,
+    },
+    {
+      id: 2,
+      name: " Project Planning",
+      logo: "/placeholder.svg?height=80&width=80",
+      color: "bg-white",
+      pinColor: "#FF00FF",
+      swingDirection: "right",
+      swingAmount: 6,
+    },
+    {
+      id: 3,
+      name: "Project Execute",
+      logo: "/placeholder.svg?height=80&width=80",
+   
+      pinColor: "#FF4500",
+      swingDirection: "right",
+      swingAmount: 6,
+    },
+    {
+      id: 4,
+      name: "Delivery",
+      logo: "/placeholder.svg?height=80&width=80",
+
+      pinColor: "#9932CC",
+      swingDirection: "right",
+      swingAmount: 6,
+    },
+    {
+      id: 5,
+      name: "Maintenance",
+      logo: "/placeholder.svg?height=80&width=80",
+  
+      pinColor: "#FF1493",
+      swingDirection: "right",
+      swingAmount: 6,
+    },
+    {
+      id: 6,
+      name: "Support",
+      logo: "/placeholder.svg?height=80&width=80",
+  
+      pinColor: "#FF1479",
+      swingDirection: "right",
+      swingAmount: 6,
+    },
+  ]
+  const [isClient, setIsClient] = useState(false)
+
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
+
+  if (!isClient) return null
+
   return (
-    <div className=" max-w-[1440px] mx-auto p-4">
+    <div 
+    className=" max-w-[1440px] mx-auto p-4 pt-16"
+    >
       <div className="mt-6 lg:mt-0 mb-12">
         <div className=" ">
           <h1 className="text-xl text-blue-700 text-center font-bold ml-4 mb-4">
@@ -28,58 +96,59 @@ function WorkProcess() {
           </h1>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  ">
-        <PricessCard
-          text={'Requirment'}
-          number={'1'}
-          color={'bg-indigo-100'}
-        ></PricessCard>
-        <PricessCard
-          text={'Project Planning'}
-          number={'2'}
-          color={'bg-orange-100'}
-        ></PricessCard>
-        <PricessCard
-          text={'Project Execute'}
-          number={'3'}
-          color={'bg-violet-100'}
-        ></PricessCard>
-        <PricessCard
-          text={'Delivery'}
-          number={'4'}
-          color={'bg-red-100'}
-        ></PricessCard>
-        <PricessCard
-          text={'Maintenance'}
-          number={'5'}
-          color={'bg-yellow-100'}
-        ></PricessCard>
-        <PricessCard
-          text={'Support'}
-          number={'6'}
-          color={'bg-cyan-100'}
-        ></PricessCard>
+   
+<div className="w-full p-16 overflow-hidden">
+      <div className="grid grid-cols-1 md:grid-cols-3  gap-16  ">
+        {cards.map((card) => {
+          // Calculate swing animation based on direction and amount
+          const rotateAnimation =
+            card.swingDirection === "none"
+              ? {}
+              : {
+                  rotate:
+                    card.swingDirection === "left"
+                      ? [-card.swingAmount, 0, card.swingAmount]
+                      : [card.swingAmount, 0, -card.swingAmount],
+                }
 
-        {/* <div className='relative '>
-          <div className='absolute -top-10 bg-slate-600 text-white w-10 text-xl font-bold rounded-full h-10 flex justify-center items-center'>
-            1
-          </div>
-          <div className='bg-indigo-200 text-lg'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eaque rem repudiandae nam maxime a quo accusantium doloremque magni iusto!
-          </div>
+          return (
+            <div key={card.id} className="relative">
+              {/* Fixed pin at top */}
+              <div
+                className="absolute -top-2 left-1/2 -translate-x-1/2 w-4 h-4 rounded-full shadow-md z-10"
+                style={{ backgroundColor: card.pinColor }}
+              />
 
-        </div> */}
-
-        {/* <div className='relative '>
-          <div className='absolute -top-10 bg-slate-600 text-white w-10 text-xl font-bold rounded-full h-10 flex justify-center items-center'>
-            1
-          </div>
-          <div className='bg-indigo-200 text-lg'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eaque rem repudiandae nam maxime a quo accusantium doloremque magni iusto!
-          </div>
-
-        </div> */}
+              {/* Animated card */}
+              <motion.div
+                className="relative"
+                style={{
+                  transformOrigin: "top center",
+                  originY: 0,
+                  originX: 0.5,
+                }}
+                animate={rotateAnimation}
+                transition={{
+                  duration: 2 + Math.random() * 1.5, // Slightly randomized duration for natural feel
+                  repeat: Number.POSITIVE_INFINITY,
+                  repeatType: "reverse",
+                  ease: "easeInOut",
+                }}
+              >
+                <div className="relative bg-white shadow-service rounded-lg overflow-hidden">
+                  <div className="p-6 flex flex-col items-center gap-4">
+                    <div className={`w-20 h-20 ${card.color} rounded-lg flex items-center justify-center`}>
+                    <span className='w-16 h-16 flex justify-center items-center text-7xl font-bold'>{card?.id}</span>
+                    </div>
+                    <h3 className="font-medium text-center text-sm lg:text-xl lg:font-bold">{card.name}</h3>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+          )
+        })}
       </div>
+    </div>
     </div>
   );
 }

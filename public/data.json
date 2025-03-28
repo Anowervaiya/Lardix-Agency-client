@@ -2,9 +2,10 @@
   {
     "_id": "6737b30283c16d4102a00b29",
     "name": "SEO",
+    "bannerHeading": "Best SEO Service Agency in Bangladesh",
     "description": "We provide comprehensive SEO services, optimizing your website for higher search rankings, increased traffic, and better online visibility.",
     "icon": "https://i.ibb.co.com/w05Y5Yk/SEO.png",
-    "link": "SEO",
+    "link": "seo-service",
     "banner": "https://i.ibb.co.com/n3WNd81/seo.gif",
     "secondBanner": {
       "heading": "Maximize Your Online Visibility with Expert SEO Services",
@@ -45,56 +46,12 @@
     ]
   },
   {
-    "_id": "6737b30283c16d4102a00b26",
-    "name": "Web Design",
-    "description": "We provide professional web design services, creating modern, responsive, and user-friendly websites tailored to your business needs",
-    "icon": "https://i.ibb.co.com/GC2W5bF/Web.png",
-    "link": "Web-Design",
-    "banner": "https://i.ibb.co.com/PTyxRc2/web-design.gif",
-    "secondBanner": {
-      "heading": "Design Stunning Websites with the Best Web Designers",
-      "description": "Bring your brand to life with beautifully crafted websites that offer both design and functionality. Our web designers focus on creating an exceptional user experience and a visually engaging design that converts visitors into customers.",
-      "image": "https://i.ibb.co.com/wcSHh44/360-F-447036650-Bwt-W5-Sm-AIxgd-Jx-Jun-Rvkiays-Lkjg-DAFB.jpg"
-    },
-    "sub-services": [
-      {
-        "heading": "Responsive Web Design",
-        "description": "Design websites that adapt seamlessly to all screen sizes, delivering optimal user experiences across desktops, tablets, and mobile devices, ensuring a responsive design.",
-        "image": "https://i.ibb.co.com/26KQmd6/images-removebg-preview-4.png"
-      },
-      {
-        "heading": "UI/UX Optimization",
-        "description": "Enhance usability and design with clear, intuitive navigation, improving user experience and conversion rates through effective user interface and experience design strategies.",
-        "image": "https://i.ibb.co.com/njZZN2b/download-removebg-preview-21.png"
-      },
-      {
-        "heading": "Custom Web Design",
-        "description": "Develop unique, tailored websites that reflect your brand’s identity, stand out in the market, and provide a memorable experience for your visitors.",
-        "image": "https://i.ibb.co.com/DM3PXvF/download-removebg-preview-17.png"
-      },
-      {
-        "heading": "E-Commerce Web Design",
-        "description": "Create secure, easy-to-navigate e-commerce websites that drive sales, enhance user experience, and ensure smooth online transactions for customers.",
-        "image": "https://i.ibb.co.com/Qm7Pqqr/download-removebg-preview-16.png"
-      },
-      {
-        "heading": "Website Redesign",
-        "description": "Refresh outdated websites with modern design trends, improving aesthetics, functionality, and conversion potential while staying true to your brand identity.",
-        "image": "https://i.ibb.co.com/BNwJjYg/download-removebg-preview-19.png"
-      },
-      {
-        "heading": "Brand Integration",
-        "description": "Seamlessly incorporate your branding elements, ensuring consistency across all design aspects, and reinforcing your brand’s message throughout the user journey.",
-        "image": "https://i.ibb.co.com/kqBmLDk/download-removebg-preview-20.png"
-      }
-    ]
-  },
-  {
     "_id": "6737b30283c16d4102a00b28",
     "name": "Digital Marketing",
+    "bannerHeading": "Best Digital Marketing Agency in Bangladesh",
     "description": "We offer comprehensive digital marketing services, including SEO, social media management, PPC, content marketing, and email campaigns to boost your brand's online presence and drive results.",
     "icon": "https://i.ibb.co.com/TLMLdS5/digital-Marketing.png",
-    "link": "Digital-Marketing",
+    "link": "digital-marketing",
     "banner": "https://i.ibb.co.com/nPc8NFZ/marketing-banner.gif",
     "secondBanner": {
       "heading": "Boost Your Brand’s Online Presence with Premier Digital Marketing Services",
@@ -137,10 +94,11 @@
   {
     "_id": "6737b30283c16d4102a00b27",
     "name": "Web Development",
+    "bannerHeading": "Best Web Development Company in Bangladesh",
     "description": "We provide professional web development services, creating responsive, user-friendly websites tailored to meet your business needs and goals.",
-    "link": "Web-Development",
+    "link": "web-development",
     "icon": "https://i.ibb.co.com/GPpT7k8/Web-Development.png",
-    "banner": "https://i.ibb.co.com/9yDLnBH/develop-web.gif",
+    "banner": "software-Development-Team.png",
     "secondBanner": {
       "heading": "Transform Your Online Presence with Expert Web Developers",
       "description": "Power up your website with robust, scalable web development solutions. Our web developers create websites that are not only visually appealing but also highly functional, secure, and easy to maintain.",
@@ -181,13 +139,14 @@
   },
   {
     "_id": "6737b30283c16d4102a00b2a",
-    "name": "Graphics Design",
+    "name": "Graphic Design",
+    "bannerHeading": "Best Graphic Design Agency in Bangladesh",
     "description": "We offer professional graphic design services, creating visually stunning logos, branding, social media graphics, and marketing materials tailored to your business needs.",
     "icon": "https://i.ibb.co.com/KjRWntN/graphics.png",
-    "link": "Graphics-Design",
+    "link": "graphic-design",
     "banner": "https://i.ibb.co.com/Tvpn27m/istockphoto-1285476239-612x612-removebg-preview.png",
     "secondBanner": {
-      "heading": "Stand Out with Creative Graphics Design Services",
+      "heading": "Stand Out with Creative Graphic Design Services",
       "description": "Captivate your audience with stunning visual designs that tell your brand’s story. Our graphic design experts in Bangladesh create impactful graphics that enhance your marketing efforts and communicate your brand identity effectively.",
       "image": "https://i.ibb.co.com/MSVSmtv/graphic-design-n-animation-vector.webp"
     },
@@ -226,14 +185,15 @@
   },
   {
     "_id": "6737b30283c16d4102a00b2b",
-    "name": "Mobile App Development",
+    "name": " App Development",
+    "bannerHeading": "Best App Development Company in Bangladesh",
     "description": "We offer end-to-end mobile app development services, creating custom, user-friendly apps for iOS and Android platforms.",
     "icon": "https://i.ibb.co.com/vDYyw7n/Mobile-Development.png",
-    "link": "App-Development",
-    "banner": "https://i.ibb.co.com/pvX6LwV/output-onlinegiftools.gif",
+    "link": "app-development",
+    "banner": "app.gif",
     "secondBanner": {
       "heading": "Build the Future with Cutting-Edge App Development",
-      "description": "Create innovative, user-friendly mobile apps that engage your audience and drive business success. Our expert app developers in Bangladesh specialize in building custom iOS and Android apps tailored to your needs.",
+      "description": "Create innovative, user-friendly  apps that engage your audience and drive business success. Our expert app developers in Bangladesh specialize in building custom iOS and Android apps tailored to your needs.",
       "image": "https://i.ibb.co.com/qyTrnFD/pngtree-modern-flat-design-concept-of-mobile-app-development-with-characters-building-png-image-2157.jpg"
     },
     "sub-services": [
@@ -266,6 +226,183 @@
         "heading": "App Maintenance & Support",
         "description": "Provide ongoing support and regular updates, ensuring your app remains secure, relevant, and functional as technology evolves.",
         "image": "https://i.ibb.co.com/6NqJ2NF/maintenance.png"
+      }
+    ]
+  },
+  {
+    "_id": "6737b30283c16d4102a00b32",
+    "name": "Software Development",
+    "bannerHeading": "Best Software Development Company in Bangladesh",
+    "description": "We offer custom software development services, providing scalable solutions tailored to your business needs, from web apps to mobile apps and enterprise solutions.",
+    "icon": "softwar-development-logo1.png",
+    "link": "software-development",
+    "banner": "/software-Development-Team.webp",
+    "secondBanner": {
+      "heading": "Transform Your Business with Custom Software Solutions",
+      "description": "We build software that streamlines your business operations, enhances productivity, and offers innovative solutions to meet unique challenges.",
+      "image": "software-Development-Team.png"
+    },
+    "sub-services": [
+      {
+        "heading": "Web Application Development",
+        "description": "Develop custom web applications that are user-friendly, scalable, and built with the latest technologies to meet your business requirements.",
+        "image": "softwar-development-logo1.png"
+      },
+      {
+        "heading": "Mobile App Development",
+        "description": "Create innovative mobile apps for iOS and Android that provide excellent user experiences and functionality for your customers.",
+        "image": "softwar-development-logo2.png"      },
+      {
+        "heading": "Enterprise Solutions",
+        "description": "Build powerful enterprise software that integrates all aspects of your business operations, improving efficiency and decision-making.",
+        "image": "softwar-development-logo3.png"      },
+      {
+        "heading": "Cloud Solutions",
+        "description": "Implement cloud-based solutions that offer scalability, flexibility, and secure data management for businesses of all sizes.",
+        "image": "softwar-development-logo4.png"      },
+      {
+        "heading": "Software Maintenance & Support",
+        "description": "Offer continuous maintenance and support for your software systems to ensure smooth operation, security, and scalability over time.",
+        "image": "softwar-development-logo5.png"      },
+      {
+        "heading": "Custom CRM Solutions",
+        "description": "Develop custom CRM solutions that enhance customer relationships, streamline communication, and improve business workflows.",
+        "image": "softwar-development-logo6.png"      }
+    ]
+  },
+  {
+    "_id": "6737b30283c16d4102a00b31",
+    "name": "Brand Development",
+    "bannerHeading": "Best Brand Development Agency in Bangladesh",
+    "description": "We specialize in creating strong, recognizable brands that resonate with your target audience and help you stand out in the market.",
+    "icon": "brand-logo.webp",
+    "link": "brand-development",
+    "banner": "brand.png",
+    "secondBanner": {
+      "heading": "Build a Brand That Lasts",
+      "description": "Our brand development services help you craft an identity that speaks to your customers, ensuring brand loyalty and recognition.",
+      "image": "Digitial-Brand-Development-min.webp"
+    },
+    "sub-services": [
+      {
+        "heading": "Brand Identity Creation",
+        "description": "Develop a unique brand identity that includes logo design, color schemes, and visual elements that reflect your company’s values.",
+        "image": "brand-development-icon1.jpg"
+      },
+      {
+        "heading": "Brand Strategy",
+        "description": "Create a strategic plan to position your brand in the market, define your target audience, and differentiate from competitors.",
+        "image": "brand-development-icon2.png"
+      },
+      {
+        "heading": "Market Positioning",
+        "description": "Position your brand effectively in the market to reach the right customers and build a strong, competitive presence.",
+       "image": "brand-development-icon3.png"
+      },
+      {
+        "heading": "Brand Awareness Campaigns",
+        "description": "Implement marketing campaigns that increase brand visibility and awareness, driving consumer engagement and brand recognition.",
+       "image": "brand-development-icon4.png"
+      },
+      {
+        "heading": "Brand Messaging",
+        "description": "Create clear, compelling messaging that communicates your brand’s story, values, and mission to connect with your audience.",
+       "image": "brand-development-icon5.png"
+      },
+      {
+        "heading": "Rebranding Services",
+        "description": "Revitalize your existing brand with a fresh look, updated messaging, and a new approach to connect with modern consumers.",
+        "image": "brand-logo.webp"
+      }
+    ]
+  },
+  {
+    "_id": "6737b30283c16d4102a00b30",
+    "name": "Business Consulting",
+    "bannerHeading": "Best Business Consulting Firm in Bangladesh",
+    "description": "We provide expert business consulting services to help your company achieve sustainable growth, improve performance, and streamline operations.",
+    "icon": "business-consulting-logo3.png",
+    "link": "business-consulting",
+    "banner": "business-consulting.avif",
+    "secondBanner": {
+      "heading": "Unlock Your Business Potential with Professional Consulting",
+      "description": "Our experienced business consultants offer solutions that optimize your operations, increase efficiency, and drive profitability for long-term success.",
+      "image": "business-consulting2.avif"
+    },
+    "sub-services": [
+      {
+        "heading": "Strategic Planning",
+        "description": "Develop actionable strategies for your business's growth, focusing on market analysis, goal setting, and risk management.",
+        "image": "business-consulting-logo.png"
+      },
+      {
+        "heading": "Operational Efficiency",
+        "description": "Improve your business’s operational processes, streamline workflows, and reduce costs to enhance profitability.",
+        "image": "business-consulting-logo2.png"
+      },
+      {
+        "heading": "Market Research",
+        "description": "Conduct detailed market research to identify trends, customer behavior, and competitive analysis for better decision-making.",
+        "image": "business-consulting-logo3.png"
+      },
+      {
+        "heading": "Change Management",
+        "description": "Assist businesses in managing and adapting to organizational changes, ensuring smooth transitions and minimal disruptions.",
+        "image": "business-consulting-logo4.png"
+      },
+      {
+        "heading": "Financial Planning",
+        "description": "Offer financial advisory services to ensure sustainable growth, including budgeting, investment strategies, and financial forecasts.",
+        "image": "business-consulting-logo5.png"
+      },
+      {
+        "heading": "Business Process Reengineering",
+        "description": "Reengineer business processes to enhance efficiency, reduce costs, and improve performance using innovative solutions.",
+        "image": "business-consulting-logo6.png"
+      }
+    ]
+  },
+  {
+    "_id": "6737b30283c16d4102a00b33",
+    "name": "Video Editing",
+    "bannerHeading": "Best Video Editing Agency in Bangladesh",
+    "description": "We provide high-quality video editing services to transform your raw footage into professional, engaging content that captures your audience's attention.",
+    "icon": "video-edit-logo.jpg",
+    "link": "video-editing",
+    "banner": "video-edit.jpg",
+    "secondBanner": {
+      "heading": "Transform Your Footage into Stunning Videos",
+      "description": "Our video editing experts bring your vision to life with creative editing techniques, ensuring that every video tells a compelling story that resonates with your audience.",
+      "image": "video-edit2.jpg"
+    },
+    "sub-services": [
+      {
+        "heading": "Video Cutting & Trimming",
+        "description": "Remove unnecessary footage and cut your video to the perfect length while maintaining the flow and structure of the story.",
+        "image": "video-edit-logo.jpg"
+      },
+      {
+        "heading": "Color Correction & Grading",
+        "description": "Enhance your video’s visual appeal by adjusting colors, brightness, and contrast to achieve a professional look.",
+        "image": "video-editing-logo1.png"
+      },
+      {
+        "heading": "Sound Editing & Mixing",
+        "description": "Improve your video’s audio quality by editing sound effects, dialogue, and background music for a polished, balanced mix.",
+        "image": "video-editing-logo2.jpg"      },
+      {
+        "heading": "Motion Graphics & Animations",
+        "description": "Add dynamic motion graphics, special effects, and animations to your video to enhance visual storytelling and engagement.",
+       "image": "video-editing-logo4.png"
+      },
+      {
+        "heading": "Video Transitions & Effects",
+        "description": "Incorporate smooth transitions and creative effects to enhance the flow of your video and make it visually stunning.",
+        "image": "video-editing-logo5.png"      },
+      {
+        "heading": "Subtitle & Captioning",
+        "description": "Add subtitles or captions to your video for accessibility and to ensure your content is understandable to a wider audience.",
+       "image": "video-editing-logo6.png"
       }
     ]
   }

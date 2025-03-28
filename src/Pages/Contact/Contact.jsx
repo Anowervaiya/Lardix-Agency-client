@@ -1,10 +1,18 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { BsFillHouseAddFill } from 'react-icons/bs';
 import HeadingDesing from '../../Components/HeadingDesing';
 
 import useWeb3Forms from '@web3forms/react';
+import { Titled } from 'react-titled';
+import toast from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
 const Contact = () => {
+  const navigate = useNavigate()
+  const [reset, setReset] = useState(false)
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const handleSubmit = e => {
     e.preventDefault();
 
@@ -38,13 +46,21 @@ const Contact = () => {
     Service: ${Service} <br>
     Description: ${Description}
   `,
-    }).then(message => alert(message));
+    }).then(message => {
+      
+      toast.success('Your Submition successfull')
+navigate('/')
+    });
   };
   return (
     <div
       className="   rounded-xl  pt-20   
      "
     >
+           <Titled title={"Best Digital Service Agency In Bangladesh"}>
+           
+            
+           </Titled>;
       {/* form section  */}
       <div className="bg-gradient-to-tr from-pink-300 to-blue-300 py-12 min-h-screen flex justify-center items-center px-8 ">
         <form
@@ -167,13 +183,23 @@ const Contact = () => {
           <div className="px-20   mx-auto">
             <button
               type="submit"
-              className="w-full p-3 mt-5 mb-20 text-center font-medium border hover:text-white   transition duration-200 rounded border-slate-500 hover:border-blue-500 focus shadow-md hover:bg-blue-500"
+              className="w-full p-3 mt-5  text-center font-medium border hover:text-white   transition duration-200 rounded border-slate-500 hover:border-blue-500 focus shadow-md hover:bg-blue-500"
             >
               Submit
             </button>
           </div>
+          <div className="px-20   mx-auto">
+            <a target='_blank' href='https://calendly.com/mdanowerhossen727/30min'
+        
+              className="w-full p-3 inline-block mt-5 mb-20 text-center font-medium border hover:text-white   transition duration-200 rounded border-slate-500 hover:border-blue-500 focus shadow-md hover:bg-blue-500"
+            >
+              Set up a meeting
+            </a>
+          </div>
         </form>
+     
       </div>
+   
       {/* get in touch  */}
     </div>
   );

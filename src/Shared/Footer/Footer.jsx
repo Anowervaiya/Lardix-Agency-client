@@ -10,7 +10,6 @@ import {
   FaWhatsapp,
 } from 'react-icons/fa';
 import ServicesItem from '../../Components/ServicesItem';
-import useAxiosSecure from '../../Hooks/useAxiosSecure';
 import { useQuery } from '@tanstack/react-query';
 
 function Footer() {
@@ -31,9 +30,6 @@ function Footer() {
                 to achieve exceptional results.
               </p>
 
-              <div className="flex gap-4 items-center lg:justify-start md:justify-start justify-center mt-4 ">
-                <p className="">Mirpur-02, Dhaka, Bangladesh</p>
-              </div>
               <div className="flex gap-4 items-center lg:justify-start md:justify-start justify-center mt-4 ">
                 <p className="">Connect With</p>
               </div>
@@ -58,7 +54,7 @@ function Footer() {
                 </a>
               </div>
             </div>
-            <div className="col-span-4 md:col-span-2 lg:col-span-1    mt-10   flex flex-col  font-semibold gap-5 lg:text-start md:text-start text-center ">
+            <div className="col-span-4 mx-auto  md:col-span-2 lg:col-span-1    mt-10   flex flex-col  font-semibold  lg:text-start md:text-start text-center ">
               <h3 className="text-black font-bold text-xl">Our Services</h3>
 
               <ServicesItem text={'SEO'} link={'SEO'}></ServicesItem>
@@ -111,12 +107,9 @@ function Footer() {
 
               <div className="flex gap-2 items-center lg:justify-start md:justify-start justify-center">
                 <MdOutlineMail className="text-2xl" />
-                <p className=" hover:underline">lardix@gmail.com</p>
+                <p className=" hover:underline">agency@lardix.com</p>
               </div>
-              <div className="flex gap-2 items-center lg:justify-start md:justify-start justify-center">
-                <FaWhatsapp className="text-2xl" />
-                <p className=" hover:underline"> (+880 15811-61949)</p>
-              </div>
+           
               <div className="flex gap-2 items-center lg:justify-start md:justify-start justify-center">
                 <FaLinkedin className="text-2xl" />
                 <p className=" hover:underline">

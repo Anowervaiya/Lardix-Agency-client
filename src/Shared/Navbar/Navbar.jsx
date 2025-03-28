@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import ServicesItem from '../../Components/ServicesItem';
-import useAxiosSecure from '../../Hooks/useAxiosSecure';
 import { useQuery } from '@tanstack/react-query';
 import Loading from '../../Components/Loading';
 import { Link } from 'react-router-dom';
@@ -30,31 +29,45 @@ function Navbar() {
           <span>Services</span>{' '}
           <MdKeyboardArrowDown className=" transition-transform group-hover:rotate-180 mt-2" />
         </div>
-        <div className="hidden group-hover:block  absolute left-[67px] lg:-left-20 -top-10 lg:top-0  cursor-pointer bg-none p-10 lg:py-12">
+        <div className="absolute left-[67px] lg:-left-10 top-4 lg:top-6  invisible opacity-0 translate-y-[20px] pointer-events-none 
+                  group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto 
+                  transition-all duration-300 ease-in">
           <div
-            className="flex flex-col w-64 p-4 lg:space-y-5 space-y-3
+            className="flex flex-col w-64 p-4 
            bg-white text-black opacity-100 border rounded-lg"
           >
-            <ServicesItem text={'SEO'} link={'SEO'}></ServicesItem>
+            <ServicesItem text={'SEO'} link={'seo-service'}></ServicesItem>
             <ServicesItem
-              text={'Web Design'}
-              link={'Web-Design'}
+              text={'Video Editing'}
+              link={'video-editing'}
             ></ServicesItem>
             <ServicesItem
               text={'Graphics Design'}
-              link={'Graphics-Design'}
+              link={'graphic-design'}
             ></ServicesItem>
             <ServicesItem
               text={'Digital Marketing'}
-              link={'Digital-Marketing'}
+              link={'digital-marketing'}
             ></ServicesItem>
             <ServicesItem
               text={'App Development'}
-              link={'App-Development'}
+              link={'app-development'}
             ></ServicesItem>
             <ServicesItem
               text={'Web Development'}
-              link={'Web-Development'}
+              link={'web-development'}
+            ></ServicesItem>
+            <ServicesItem
+              text={'Business Consulting'}
+              link={'business-consulting'}
+            ></ServicesItem>
+            <ServicesItem
+              text={'Brand Development'}
+              link={'brand-development'}
+            ></ServicesItem>
+            <ServicesItem
+              text={'Software Development'}
+              link={'software-development'}
             ></ServicesItem>
           </div>
         </div>

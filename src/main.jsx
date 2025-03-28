@@ -12,6 +12,7 @@ import {
 import AllServicesContainer from './Pages/Services/AllServicesContainer/AllServicesContainer';
 import Contact from './Pages/Contact/Contact';
 import AboutHome from './Pages/AboutUs/AboutHome/AboutHome';
+import { Toaster } from 'react-hot-toast';
 const queryClient = new QueryClient();
 
 
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
         element: <HomeContainer></HomeContainer>,
       },
       {
-        path: '/all-services/:link',
+        path: '/:link',
         element:<AllServicesContainer></AllServicesContainer>
       },
       {
@@ -43,7 +44,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
     <RouterProvider router={router} />
-      
+    <Toaster/>
      </QueryClientProvider>
   </StrictMode>
 );

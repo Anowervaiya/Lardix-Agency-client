@@ -8,7 +8,7 @@ function SecondBanner({ data }) {
     <div className="my-16">
       {/* second banner  */}
       <div className="  ">
-        <div className=" max-w-[1440px] mx-auto flex  flex-col lg:flex-row gap-28">
+        <div className=" max-w-[1440px] mx-auto flex  flex-col justify-center items-center lg:flex-row gap-28">
           <div className="flex-1">
             {' '}
             <img

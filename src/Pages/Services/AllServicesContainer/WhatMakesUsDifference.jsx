@@ -4,8 +4,9 @@ import WhatMakesCard from './WhatMakesCard';
 
 function WhatMakesUsDifference() {
   return (
-    <div className=" max-w-[1440px] mx-auto p-4">
-      <div className="mt-24 mb-16">
+   <div className='bg-gray-100 p-4'>
+     <div className=" max-w-[1440px] mx-auto ">
+      <div className="mt-24 mb-12">
         <div className="border-l-[6px] h-[50px] border-indigo-500 ">
           <h1 className="text-4xl font-bold ml-4">
             What Makes Us Difference From
@@ -24,14 +25,11 @@ function WhatMakesUsDifference() {
             </span>
             , we believe in standing out by delivering exceptional value to our
             clients. What sets us apart is our commitment to personalized
-            strategies, data-driven insights, and innovative solutions. We blend
-            creativity with cutting-edge technology to deliver exceptional
-            results, ensuring every client achieves their unique goals with
-            measurable success.
+            strategies, data-driven insights, and innovative solutions. 
           </h1>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 p-6">
+      <div className="grid grid-cols-1 pb-16 md:grid-cols-2 lg:grid-cols-3 gap-12 px-6 ">
         <WhatMakesCard
           logo={'https://i.ibb.co.com/y8RgcKV/12140561.png'}
           heading={'Data-Driven Strategies'}
@@ -83,6 +81,7 @@ function WhatMakesUsDifference() {
         ></WhatMakesCard>
       </div>
     </div>
+   </div>
   );
 }
 
