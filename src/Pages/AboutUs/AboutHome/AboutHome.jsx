@@ -13,7 +13,7 @@ function AboutHome() {
   }, []);
   return (
     <div className='pt-20'>
-     <Titled title={"Best Digital Service Agency In Bangladesh"}>
+     <Titled title={"Best Digital Marketing Agency in Bangladesh"}>
      
       
      </Titled>;
